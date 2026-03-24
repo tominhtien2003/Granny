@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54f12c96c54a8c409a35ba52d4ea40d, type: 3}
+  m_Name: Royal_wings_2
+  m_EditorClassIdentifier: 
+  m_mesh: {fileID: -7821917557700976381, guid: 0d2c4ed13a1110e4bb38bf26da219cea, type: 3}
+  m_materials:
+  - {fileID: 2100000, guid: 2764d4bef49e53a4abd25f4ec4c8a6ad, type: 2}
+  m_particle: {fileID: 7926040720720876907, guid: 17a81c9c86c18414fb599b70a2bb54c0, type: 3}
+  m_overrideScale: {x: 2, y: 0.003968255, z: 1.488096}

@@ -1,0 +1,249 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3bdd44488e95e94d917ceaeebd56596, type: 3}
+  m_Name: Wing_Shop_Data 2
+  m_EditorClassIdentifier: 
+  m_wingShopItemData:
+  - m_displayIcon: {fileID: 21300000, guid: b46e1cd02053ac94ab177e107a4f0a43, type: 3}
+    m_itemName: Leaf Wings
+    m_itemPrice: 0
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 6e1e2a88f1e00ac4190fb0187cb916a9, type: 2}
+    m_climbSpeed: 0.8
+    m_gemPrice: 10
+  - m_displayIcon: {fileID: 21300000, guid: 1a07853f76c15684fbffb03cfa7eddca, type: 3}
+    m_itemName: Star Wings
+    m_itemPrice: 0
+    m_itemAdAmount: 2
+    m_wingsData: {fileID: 11400000, guid: 7760334d396a5e04ea57123429577ead, type: 2}
+    m_climbSpeed: 1.12
+    m_gemPrice: 20
+  - m_displayIcon: {fileID: 21300000, guid: 539112909ba074d4bb49252ad8373191, type: 3}
+    m_itemName: Flowing Butterfly
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_wingsData: {fileID: 11400000, guid: 619cfb4b8de0ab940a91e4e349f876e9, type: 2}
+    m_climbSpeed: 1.568
+    m_gemPrice: 30
+  - m_displayIcon: {fileID: 21300000, guid: f5f9b54f1d7c5fd47be3bbfaec0a41da, type: 3}
+    m_itemName: Ice Butterfly
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingsData: {fileID: 11400000, guid: 29f2808915a6eb54299f49c74963e7f4, type: 2}
+    m_climbSpeed: 2.1952
+    m_gemPrice: 40
+  - m_displayIcon: {fileID: 21300000, guid: ee5634b47740169488d905e293511ec0, type: 3}
+    m_itemName: Radiant Butterfly
+    m_itemPrice: 0
+    m_itemAdAmount: 5
+    m_wingsData: {fileID: 11400000, guid: 8487d03ac03f07649ab10d7df7118b26, type: 2}
+    m_climbSpeed: 3.0732799
+    m_gemPrice: 50
+  - m_displayIcon: {fileID: 21300000, guid: 207e12830fbbcd14cbd767f019a5225d, type: 3}
+    m_itemName: Unreal Wings
+    m_itemPrice: 0
+    m_itemAdAmount: 6
+    m_wingsData: {fileID: 11400000, guid: fb734d0c9fe5fe148a79225937f8054a, type: 2}
+    m_climbSpeed: 4.302592
+    m_gemPrice: 60
+  - m_displayIcon: {fileID: 21300000, guid: 9d438e6a474f7574682a83ba680e70c3, type: 3}
+    m_itemName: Rune Wings
+    m_itemPrice: 0
+    m_itemAdAmount: 7
+    m_wingsData: {fileID: 11400000, guid: 29834b8abd5da4b4c983d16a6d0d954e, type: 2}
+    m_climbSpeed: 6.023628
+    m_gemPrice: 70
+  - m_displayIcon: {fileID: 21300000, guid: cef9ee9f95ef06447acb63016d6dde63, type: 3}
+    m_itemName: Extreme Wings
+    m_itemPrice: 0
+    m_itemAdAmount: 8
+    m_wingsData: {fileID: 11400000, guid: c716f8ae47d9288458ac64022d7446f1, type: 2}
+    m_climbSpeed: 8.43308
+    m_gemPrice: 80
+  - m_displayIcon: {fileID: 21300000, guid: 6a267bf9fcb37384ca7d7b1af6d20c76, type: 3}
+    m_itemName: Cyber Boombox
+    m_itemPrice: 0
+    m_itemAdAmount: 9
+    m_wingsData: {fileID: 11400000, guid: 8627be54ed96c884eac3d83a5ccc4c6d, type: 2}
+    m_climbSpeed: 11.806312
+    m_gemPrice: 90
+  - m_displayIcon: {fileID: 21300000, guid: 47f0017cc34c62c40975acfb2e70ae13, type: 3}
+    m_itemName: Ancient Wings
+    m_itemPrice: 0
+    m_itemAdAmount: 10
+    m_wingsData: {fileID: 11400000, guid: 5c19e98bd0fbb9243b7f8a9859b72771, type: 2}
+    m_climbSpeed: 16.528835
+    m_gemPrice: 100
+  - m_displayIcon: {fileID: 21300000, guid: f7f52ef563239e348b14a8def0eade7b, type: 3}
+    m_itemName: Thorn Princess
+    m_itemPrice: 0
+    m_itemAdAmount: 11
+    m_wingsData: {fileID: 11400000, guid: 3843efbbadb4da24081853f28562ed4b, type: 2}
+    m_climbSpeed: 23.14037
+    m_gemPrice: 110
+  - m_displayIcon: {fileID: 21300000, guid: b8f4319845260c048b6248f796a8d435, type: 3}
+    m_itemName: Cyber Extreme
+    m_itemPrice: 0
+    m_itemAdAmount: 12
+    m_wingsData: {fileID: 11400000, guid: 735f7fc0b67711d44ada8b705b0981e9, type: 2}
+    m_climbSpeed: 32.396515
+    m_gemPrice: 120
+  - m_displayIcon: {fileID: 21300000, guid: 2392be60b6146c04199c006da9781ab1, type: 3}
+    m_itemName: Cyber Blood
+    m_itemPrice: 0
+    m_itemAdAmount: 13
+    m_wingsData: {fileID: 11400000, guid: 5ef75e65563fd8e4da64e68440b6e9e4, type: 2}
+    m_climbSpeed: 45.35512
+    m_gemPrice: 130
+  - m_displayIcon: {fileID: 21300000, guid: 2dce8bd6cd0a3534bbcb5435f4cbe665, type: 3}
+    m_itemName: Tsunami Wings
+    m_itemPrice: 0
+    m_itemAdAmount: 14
+    m_wingsData: {fileID: 11400000, guid: 404e60f4210c6d14fae4a550423ead30, type: 2}
+    m_climbSpeed: 63.49717
+    m_gemPrice: 140
+  - m_displayIcon: {fileID: 21300000, guid: 2d20fe6468225b44dbc92282c8578a85, type: 3}
+    m_itemName: Pixie Angel
+    m_itemPrice: 0
+    m_itemAdAmount: 15
+    m_wingsData: {fileID: 11400000, guid: 51a84886382c8324db709de34597466d, type: 2}
+    m_climbSpeed: 88.896034
+    m_gemPrice: 150
+  - m_displayIcon: {fileID: 21300000, guid: dc34bac2e8a6e5d4782a99986a76649c, type: 3}
+    m_itemName: Cyber Cosmic
+    m_itemPrice: 0
+    m_itemAdAmount: 16
+    m_wingsData: {fileID: 11400000, guid: 560dcce8a6e101348a1ce5710c910593, type: 2}
+    m_climbSpeed: 124.454445
+    m_gemPrice: 160
+  - m_displayIcon: {fileID: 21300000, guid: 86bd77ecb60c6194f8cc8a4b68c83ace, type: 3}
+    m_itemName: Duality
+    m_itemPrice: 0
+    m_itemAdAmount: 17
+    m_wingsData: {fileID: 11400000, guid: a63503db92672734b8a7625f87e4100d, type: 2}
+    m_climbSpeed: 174.23622
+    m_gemPrice: 170
+  - m_displayIcon: {fileID: 21300000, guid: 405872be0ff5af8488e674ff1f85aa3a, type: 3}
+    m_itemName: Infinite Cape
+    m_itemPrice: 0
+    m_itemAdAmount: 18
+    m_wingsData: {fileID: 11400000, guid: 180c608cc89068e4a832961e1f82d27a, type: 2}
+    m_climbSpeed: 243.93071
+    m_gemPrice: 180
+  - m_displayIcon: {fileID: 21300000, guid: 112252e89599c4e47bf12c58581b89e5, type: 3}
+    m_itemName: Ethereal Wings
+    m_itemPrice: 0
+    m_itemAdAmount: 19
+    m_wingsData: {fileID: 11400000, guid: d777b357adb977047a671be2b189e6b3, type: 2}
+    m_climbSpeed: 341.503
+    m_gemPrice: 190
+  - m_displayIcon: {fileID: 21300000, guid: fa355c89fb6cfed40891ca77e7160a37, type: 3}
+    m_itemName: Thousand Eyes
+    m_itemPrice: 0
+    m_itemAdAmount: 20
+    m_wingsData: {fileID: 11400000, guid: 3cf089607ce29e942be439918c1ff39d, type: 2}
+    m_climbSpeed: 478.1042
+    m_gemPrice: 200
+  - m_displayIcon: {fileID: 21300000, guid: 05de6d3c39745c04db6705b3219cf42e, type: 3}
+    m_itemName: Phoenix Wings
+    m_itemPrice: 0
+    m_itemAdAmount: 21
+    m_wingsData: {fileID: 11400000, guid: fe0d98300cfac4040b125da88a6d7f73, type: 2}
+    m_climbSpeed: 669.3458
+    m_gemPrice: 210
+  - m_displayIcon: {fileID: 21300000, guid: 402c5f441ffa1074fb893079acae3da7, type: 3}
+    m_itemName: Paper Airplane
+    m_itemPrice: 0
+    m_itemAdAmount: 22
+    m_wingsData: {fileID: 11400000, guid: a31848aca3c31ee4e9d2523b06a4b4e5, type: 2}
+    m_climbSpeed: 937.08417
+    m_gemPrice: 220
+  - m_displayIcon: {fileID: 21300000, guid: 0da6c224309ae5a44b3a9c3f868b386f, type: 3}
+    m_itemName: Black Lightning
+    m_itemPrice: 0
+    m_itemAdAmount: 23
+    m_wingsData: {fileID: 11400000, guid: 56b20b7c0c4ddd94b875ceb0478dd2b4, type: 2}
+    m_climbSpeed: 1311.9178
+    m_gemPrice: 230
+  - m_displayIcon: {fileID: 21300000, guid: a542a706ccb88764ab983ae64edcccee, type: 3}
+    m_itemName: Scorpion Tail
+    m_itemPrice: 0
+    m_itemAdAmount: 24
+    m_wingsData: {fileID: 11400000, guid: eddb42d2be159db46bb473a1d0a92941, type: 2}
+    m_climbSpeed: 1836.6849
+    m_gemPrice: 240
+  - m_displayIcon: {fileID: 21300000, guid: 28f0f83ca83d6b342b5b4d701816bc8c, type: 3}
+    m_itemName: Ball Lightning
+    m_itemPrice: 0
+    m_itemAdAmount: 25
+    m_wingsData: {fileID: 11400000, guid: 43c9a146fff38bb4baa872a360ef8c17, type: 2}
+    m_climbSpeed: 2571.359
+    m_gemPrice: 250
+  - m_displayIcon: {fileID: 21300000, guid: 68b63185e5e41a842ad0cab879529fe6, type: 3}
+    m_itemName: Spirit Circle
+    m_itemPrice: 0
+    m_itemAdAmount: 26
+    m_wingsData: {fileID: 11400000, guid: 63cc41a9685979745ba3a8eaf84c31e1, type: 2}
+    m_climbSpeed: 3599.9023
+    m_gemPrice: 260
+  - m_displayIcon: {fileID: 21300000, guid: 182206848eb00904e851ffc6b4704c49, type: 3}
+    m_itemName: Crystal Wings
+    m_itemPrice: 0
+    m_itemAdAmount: 27
+    m_wingsData: {fileID: 11400000, guid: f88fe572a2c1e3044bc1943e3ad819ff, type: 2}
+    m_climbSpeed: 5039.8633
+    m_gemPrice: 270
+  - m_displayIcon: {fileID: 21300000, guid: 60a9ba971a26e1646804bad954af55a5, type: 3}
+    m_itemName: Flower Angelic
+    m_itemPrice: 0
+    m_itemAdAmount: 28
+    m_wingsData: {fileID: 11400000, guid: d6dcb16855dded84d8b70338870cce84, type: 2}
+    m_climbSpeed: 7055.8086
+    m_gemPrice: 280
+  - m_displayIcon: {fileID: 21300000, guid: 03c8ea17591d35146aa92866142e5fb5, type: 3}
+    m_itemName: Blood Butterfly
+    m_itemPrice: 0
+    m_itemAdAmount: 29
+    m_wingsData: {fileID: 11400000, guid: 43efe524f5fb3a34aba9fc666d2b4947, type: 2}
+    m_climbSpeed: 9878.132
+    m_gemPrice: 290
+  - m_displayIcon: {fileID: 21300000, guid: 365941bf5e595f0439587503b6ee83f6, type: 3}
+    m_itemName: New Year Wings
+    m_itemPrice: 0
+    m_itemAdAmount: 30
+    m_wingsData: {fileID: 11400000, guid: db41516bbda91f7498e2f3c9358b4554, type: 2}
+    m_climbSpeed: 13829.385
+    m_gemPrice: 300
+  - m_displayIcon: {fileID: 21300000, guid: 16067fe0a8e7f6842b2db3ac0966a1fc, type: 3}
+    m_itemName: Circle Of Fate
+    m_itemPrice: 0
+    m_itemAdAmount: 31
+    m_wingsData: {fileID: 11400000, guid: a15010e949732df4297266ddc86fd55b, type: 2}
+    m_climbSpeed: 19361.139
+    m_gemPrice: 310
+  - m_displayIcon: {fileID: 21300000, guid: 797bb2651d97e2d4fa2e19fe3d9d6a42, type: 3}
+    m_itemName: Cyber Invincible
+    m_itemPrice: 0
+    m_itemAdAmount: 32
+    m_wingsData: {fileID: 11400000, guid: ebfbfc4089ad951479f1ad95c2eb22f6, type: 2}
+    m_climbSpeed: 27105.594
+    m_gemPrice: 320
+  - m_displayIcon: {fileID: 21300000, guid: 004b0b7caf427304eaf8b668b43ce017, type: 3}
+    m_itemName: Cyber Finality
+    m_itemPrice: 0
+    m_itemAdAmount: 33
+    m_wingsData: {fileID: 11400000, guid: e7ed86fa171a03248a937f9078023845, type: 2}
+    m_climbSpeed: 37947.832
+    m_gemPrice: 330
+  m_startingSpeed: 0.8
+  m_wingDatas: []
+  m_initOne: {fileID: 0}

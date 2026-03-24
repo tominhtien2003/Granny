@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54f12c96c54a8c409a35ba52d4ea40d, type: 3}
+  m_Name: Nature_wings_4
+  m_EditorClassIdentifier: 
+  m_mesh: {fileID: -5959391287459149451, guid: 297349a8516f8d0488531dc0b5ebb153, type: 3}
+  m_materials:
+  - {fileID: 2100000, guid: a92333624b7b1c74f8d099e11227bda9, type: 2}
+  m_particle: {fileID: 171882, guid: 87202147b743d2f4e8ec9a54280c8c93, type: 3}
+  m_overrideScale: {x: 1, y: 1, z: 1}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54f12c96c54a8c409a35ba52d4ea40d, type: 3}
+  m_Name: Boat2
+  m_EditorClassIdentifier: 
+  m_mesh: {fileID: -6567112140281506008, guid: b435601acad360f47b94d6bcb9da4932, type: 3}
+  m_materials:
+  - {fileID: 2100000, guid: f319e337dfbac9e40a47032cf12afbc5, type: 2}
+  m_particle: {fileID: 0}
+  m_overrideScale: {x: 1.34, y: 1.34, z: 1.34}
+  m_overrideRot: {x: 0, y: 0, z: 0}
+  m_overridePos: {x: 0, y: -0.543, z: 0}

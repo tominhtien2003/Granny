@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54f12c96c54a8c409a35ba52d4ea40d, type: 3}
+  m_Name: Eye_wings_13
+  m_EditorClassIdentifier: 
+  m_mesh: {fileID: -8890474417821478174, guid: a41110cd984192149abdbbf6126aca9f, type: 3}
+  m_materials:
+  - {fileID: 2100000, guid: 3cb7d710de5530a4d9968860316ed011, type: 2}
+  m_particle: {fileID: 171882, guid: 5e8832e408a09874bb9f119c9cb22035, type: 3}
+  m_overrideScale: {x: 1, y: 1, z: 1}

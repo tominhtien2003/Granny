@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54f12c96c54a8c409a35ba52d4ea40d, type: 3}
+  m_Name: Neon_wings_7
+  m_EditorClassIdentifier: 
+  m_mesh: {fileID: -6443956976906734859, guid: b5d772bd9381a1f4996911fd33ff0370, type: 3}
+  m_materials:
+  - {fileID: 2100000, guid: d8f2ed314a377c1419d0ecf42aaaac68, type: 2}
+  m_particle: {fileID: 120358, guid: 078ea01e0fcdc2d408e2c566367f39af, type: 3}
+  m_overrideScale: {x: 1, y: 1, z: 1}

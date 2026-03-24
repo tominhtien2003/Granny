@@ -1,0 +1,13 @@
+{
+  "name": "com.qu.bloxlike",
+  "version": "1.0.4",
+  "displayName": "BloxLike Basic",
+  "description": "Basic Bloxlike movement and state machine",
+  "unity": "2022.3",
+  "dependencies": {
+    "com.unity.cinemachine": "2.10.4"
+  },
+  "author": {
+    "name": "Qu"
+  }
+ }

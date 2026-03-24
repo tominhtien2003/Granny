@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415f87d3f59f18f4aaeed6eac72ceefd, type: 3}
+  m_Name: MiniGame_Data
+  m_EditorClassIdentifier: 
+  miniGameList:
+  - name: GRANY
+    id: 0
+    sceneName: G3_GrumpyGran
+    gameLogName: 
+    gameIcon: {fileID: 21300000, guid: 2460f85233219cc4a99e7a50de8a028e, type: 3}
+    maxCheckPoint: 0
+    isLocked: 0
+    useAALoader: 0
+    adsBreak: 0
+    adsAFK: 0
+  - name: ESCAPE WAVES FOR LUCKY BLOCKS
+    id: 1
+    sceneName: 
+    gameLogName: escape_wave_comming_soon
+    gameIcon: {fileID: 21300000, guid: f83ff254bfe402b4aa53da18cfe25b3c, type: 3}
+    maxCheckPoint: 0
+    isLocked: 1
+    useAALoader: 0
+    adsBreak: 0
+    adsAFK: 0
+  - name: STEAL A BRAINROT
+    id: 2
+    sceneName: 
+    gameLogName: steal_brainrot_comming_soon
+    gameIcon: {fileID: 21300000, guid: c0d7887d920a2b241a8f2067611dc89c, type: 3}
+    maxCheckPoint: 0
+    isLocked: 1
+    useAALoader: 0
+    adsBreak: 0
+    adsAFK: 0
+  - name: 99 NIGHTS IN THE FOREST
+    id: 3
+    sceneName: 
+    gameLogName: 99_night_comming_soon
+    gameIcon: {fileID: 21300000, guid: cea4fe0f5b7bddf4b999c12edbfb22bb, type: 3}
+    maxCheckPoint: 0
+    isLocked: 1
+    useAALoader: 0
+    adsBreak: 0
+    adsAFK: 0
+  sceneAssets: []
+  gameIcon: []
+  maxCheckPoint: 

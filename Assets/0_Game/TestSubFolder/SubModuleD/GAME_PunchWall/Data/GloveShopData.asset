@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3bdd44488e95e94d917ceaeebd56596, type: 3}
+  m_Name: GloveShopData
+  m_EditorClassIdentifier: 
+  m_wingShopItemData:
+  - m_displayIcon: {fileID: 21300000, guid: 5d6efe9932fc74349b7a67f72b3f5c56, type: 3}
+    m_itemName: Basic
+    m_itemPrice: 300
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 602970c7b648d1a4e824cdd05737b227, type: 2}
+    m_climbSpeed: 1.2
+    m_gemPrice: 7
+  - m_displayIcon: {fileID: 21300000, guid: bfaa097ad861dae449f8a4ecb320a8b7, type: 3}
+    m_itemName: Red Punchers
+    m_itemPrice: 2500
+    m_itemAdAmount: 2
+    m_wingsData: {fileID: 11400000, guid: 4e4f7c48ac1423544b01b04231eac277, type: 2}
+    m_climbSpeed: 1.6800001
+    m_gemPrice: 9
+  - m_displayIcon: {fileID: 21300000, guid: 27a79128624aae64f841c7c2999e555c, type: 3}
+    m_itemName: Perfect Blue
+    m_itemPrice: 16500
+    m_itemAdAmount: 3
+    m_wingsData: {fileID: 11400000, guid: 4fe65e76c58b3a347a6b54913db39fe5, type: 2}
+    m_climbSpeed: 2.352
+    m_gemPrice: 14
+  - m_displayIcon: {fileID: 21300000, guid: cd149e828b152ee47b4b5b96b07366c7, type: 3}
+    m_itemName: Shining Green
+    m_itemPrice: 200000
+    m_itemAdAmount: 4
+    m_wingsData: {fileID: 11400000, guid: 1e14662e01f46c0488d0d1a4698943a1, type: 2}
+    m_climbSpeed: 3.2928
+    m_gemPrice: 22
+  - m_displayIcon: {fileID: 21300000, guid: a91aeac4e49368b45acec46a29c00bb6, type: 3}
+    m_itemName: Bombastic Purple
+    m_itemPrice: 1200000
+    m_itemAdAmount: 5
+    m_wingsData: {fileID: 11400000, guid: d348f429515f91346955fecafd80bf1a, type: 2}
+    m_climbSpeed: 4.60992
+    m_gemPrice: 40
+  - m_displayIcon: {fileID: 21300000, guid: 84baa88ca13efae45b6f066872764f51, type: 3}
+    m_itemName: Spiked Fists
+    m_itemPrice: 25000000
+    m_itemAdAmount: 6
+    m_wingsData: {fileID: 11400000, guid: 8844daf4139cde147b018a7bcb0a005b, type: 2}
+    m_climbSpeed: 6.453888
+    m_gemPrice: 55
+  - m_displayIcon: {fileID: 21300000, guid: cbc8741483f7e5544bce0cbfd6112d0c, type: 3}
+    m_itemName: Metal Fists
+    m_itemPrice: 900000000
+    m_itemAdAmount: 7
+    m_wingsData: {fileID: 11400000, guid: 59ad5eac552be424fb00b045de91c366, type: 2}
+    m_climbSpeed: 9.035443
+    m_gemPrice: 60
+  - m_displayIcon: {fileID: 21300000, guid: 3e6d3f995c447964f97a8a03df18f5c5, type: 3}
+    m_itemName: Pow Haha
+    m_itemPrice: 0
+    m_itemAdAmount: 8
+    m_wingsData: {fileID: 11400000, guid: b735871b6b433d842947529d47ec8b2b, type: 2}
+    m_climbSpeed: 12.64962
+    m_gemPrice: 65
+  - m_displayIcon: {fileID: 21300000, guid: ea1fb96eac340e24dae19f3b72efbf63, type: 3}
+    m_itemName: Forged Shields
+    m_itemPrice: 0
+    m_itemAdAmount: 9
+    m_wingsData: {fileID: 11400000, guid: 3375be30218777d46a1a4a39770e9143, type: 2}
+    m_climbSpeed: 17.709467
+    m_gemPrice: 70
+  - m_displayIcon: {fileID: 21300000, guid: 51e54b13df8053c40ae9b6ce7c4477cd, type: 3}
+    m_itemName: Black Mecha
+    m_itemPrice: 0
+    m_itemAdAmount: 10
+    m_wingsData: {fileID: 11400000, guid: 6a6dec71bdaca1e44a681ed8b7ffac4b, type: 2}
+    m_climbSpeed: 24.793253
+    m_gemPrice: 75
+  - m_displayIcon: {fileID: 21300000, guid: cf6cce6a17b64554587c802df372941e, type: 3}
+    m_itemName: Silly Bunny
+    m_itemPrice: 0
+    m_itemAdAmount: 11
+    m_wingsData: {fileID: 11400000, guid: aeba68ff4f08fde4a8e4ed06a0f6f5e8, type: 2}
+    m_climbSpeed: 34.710552
+    m_gemPrice: 80
+  - m_displayIcon: {fileID: 21300000, guid: 0e5e541d8185a57488affc572af49cae, type: 3}
+    m_itemName: The Protector
+    m_itemPrice: 0
+    m_itemAdAmount: 12
+    m_wingsData: {fileID: 11400000, guid: f6d11f7deaced3143b03e7a764cce2de, type: 2}
+    m_climbSpeed: 48.594772
+    m_gemPrice: 85
+  - m_displayIcon: {fileID: 21300000, guid: 82bb29eb5497ace4c85a2b8a88c0be2f, type: 3}
+    m_itemName: Mysteriums
+    m_itemPrice: 0
+    m_itemAdAmount: 13
+    m_wingsData: {fileID: 11400000, guid: 1b07c6c3488452a499837e9d48a07fa2, type: 2}
+    m_climbSpeed: 68.03268
+    m_gemPrice: 90
+  - m_displayIcon: {fileID: 21300000, guid: 3285f2756f147aa4eb2623eed1b69528, type: 3}
+    m_itemName: Truths
+    m_itemPrice: 0
+    m_itemAdAmount: 14
+    m_wingsData: {fileID: 11400000, guid: 9598e6406700077438abfec91565b3f5, type: 2}
+    m_climbSpeed: 95.24574
+    m_gemPrice: 95
+  - m_displayIcon: {fileID: 21300000, guid: cf8a701658070ae42a81500d80d4ffba, type: 3}
+    m_itemName: Chrono Punchers
+    m_itemPrice: 0
+    m_itemAdAmount: 15
+    m_wingsData: {fileID: 11400000, guid: c6a3bad87938cb349a3e8b5e931bcea2, type: 2}
+    m_climbSpeed: 133.34404
+    m_gemPrice: 120
+  - m_displayIcon: {fileID: 21300000, guid: 1374d184a870f9e4fb3d944804b642b4, type: 3}
+    m_itemName: Money Fists
+    m_itemPrice: 0
+    m_itemAdAmount: 16
+    m_wingsData: {fileID: 11400000, guid: 7c1f8c282910b2b49940b51dcd32313a, type: 2}
+    m_climbSpeed: 186.68166
+    m_gemPrice: 130
+  - m_displayIcon: {fileID: 21300000, guid: e725207c9d04c84448bdecffd626f92a, type: 3}
+    m_itemName: Shark Bites
+    m_itemPrice: 0
+    m_itemAdAmount: 17
+    m_wingsData: {fileID: 11400000, guid: 67b53b0aaba8ca44991319fcf33dd479, type: 2}
+    m_climbSpeed: 261.3543
+    m_gemPrice: 160
+  - m_displayIcon: {fileID: 21300000, guid: 65af9961ade435243803617966e8b944, type: 3}
+    m_itemName: Flowing Lava
+    m_itemPrice: 0
+    m_itemAdAmount: 18
+    m_wingsData: {fileID: 11400000, guid: be4e43fb6176e984d8dc0fe5d448754d, type: 2}
+    m_climbSpeed: 365.89603
+    m_gemPrice: 180
+  - m_displayIcon: {fileID: 21300000, guid: d2dae97bdd8425b4ebfdf5162770ab9c, type: 3}
+    m_itemName: Dubstep Unicorn
+    m_itemPrice: 0
+    m_itemAdAmount: 21
+    m_wingsData: {fileID: 11400000, guid: dad979c8f2c020f438fb393075466bbc, type: 2}
+    m_climbSpeed: 512.25446
+    m_gemPrice: 190
+  - m_displayIcon: {fileID: 21300000, guid: 99fbea5d91b0088469e11e49e04f009d, type: 3}
+    m_itemName: Clockwork Retro
+    m_itemPrice: 0
+    m_itemAdAmount: 25
+    m_wingsData: {fileID: 11400000, guid: 7ddf49f21b46719498a2c3273040365d, type: 2}
+    m_climbSpeed: 717.15625
+    m_gemPrice: 200
+  m_startingSpeed: 1.2
+  m_wingDatas:
+  - {fileID: 11400000, guid: 602970c7b648d1a4e824cdd05737b227, type: 2}
+  - {fileID: 11400000, guid: 4e4f7c48ac1423544b01b04231eac277, type: 2}
+  - {fileID: 11400000, guid: 4fe65e76c58b3a347a6b54913db39fe5, type: 2}
+  - {fileID: 11400000, guid: 1e14662e01f46c0488d0d1a4698943a1, type: 2}
+  - {fileID: 11400000, guid: d348f429515f91346955fecafd80bf1a, type: 2}
+  - {fileID: 11400000, guid: 8844daf4139cde147b018a7bcb0a005b, type: 2}
+  - {fileID: 11400000, guid: 59ad5eac552be424fb00b045de91c366, type: 2}
+  - {fileID: 11400000, guid: b735871b6b433d842947529d47ec8b2b, type: 2}
+  - {fileID: 11400000, guid: 3375be30218777d46a1a4a39770e9143, type: 2}
+  - {fileID: 11400000, guid: 6a6dec71bdaca1e44a681ed8b7ffac4b, type: 2}
+  - {fileID: 11400000, guid: aeba68ff4f08fde4a8e4ed06a0f6f5e8, type: 2}
+  - {fileID: 11400000, guid: f6d11f7deaced3143b03e7a764cce2de, type: 2}
+  - {fileID: 11400000, guid: 1b07c6c3488452a499837e9d48a07fa2, type: 2}
+  - {fileID: 11400000, guid: 9598e6406700077438abfec91565b3f5, type: 2}
+  - {fileID: 11400000, guid: c6a3bad87938cb349a3e8b5e931bcea2, type: 2}
+  - {fileID: 11400000, guid: 7c1f8c282910b2b49940b51dcd32313a, type: 2}
+  - {fileID: 11400000, guid: 67b53b0aaba8ca44991319fcf33dd479, type: 2}
+  - {fileID: 11400000, guid: be4e43fb6176e984d8dc0fe5d448754d, type: 2}
+  - {fileID: 11400000, guid: dad979c8f2c020f438fb393075466bbc, type: 2}
+  - {fileID: 11400000, guid: 7ddf49f21b46719498a2c3273040365d, type: 2}
+  m_initWings:
+  - {fileID: 919132149155446097, guid: ed607405d32502047a28e3bd24680485, type: 3}
+  - {fileID: 919132149155446097, guid: c34ae572f2d90ec41898d69cbe53b41b, type: 3}
+  - {fileID: 919132149155446097, guid: 43a204b6fdf95724c9bbba2f2a1ca7fe, type: 3}
+  - {fileID: 919132149155446097, guid: 7f01b4d50d0337b479efb128535f4c07, type: 3}
+  - {fileID: 919132149155446097, guid: 58a7710ab2c92ab47aa41e7b79b0ba7c, type: 3}
+  - {fileID: 919132149155446097, guid: ffae02644d2c710438bb84e865ee59cf, type: 3}
+  - {fileID: 919132149155446097, guid: 7953631eb8d71ce4ea5f494f662ba231, type: 3}
+  - {fileID: 919132149155446097, guid: 5b7feeff8c8451b4da1d4ed1844e5ebb, type: 3}
+  - {fileID: 919132149155446097, guid: d9e72cba819ad86419392d91202f5c15, type: 3}
+  - {fileID: 919132149155446097, guid: 1a5b224bb73dd9d4684640d04c2cb548, type: 3}
+  - {fileID: 919132149155446097, guid: 2f310248507e13048962f370fdda1a5a, type: 3}
+  - {fileID: 919132149155446097, guid: d7b26cfdb8c102549a8332f2d4aed18b, type: 3}
+  - {fileID: 919132149155446097, guid: 57c4b366ac578f14195dd1729cbabb45, type: 3}
+  - {fileID: 919132149155446097, guid: 088b6995fd9d0a248ac63d8407633565, type: 3}
+  - {fileID: 919132149155446097, guid: 354cfc21d96c1f643b1aa6a5a5c0dcf8, type: 3}
+  - {fileID: 919132149155446097, guid: 84a4ac631c2692a40957baf8ffcb3b7f, type: 3}
+  - {fileID: 919132149155446097, guid: 71c0e00570cc0f94d8dbfb1e0035743c, type: 3}
+  - {fileID: 919132149155446097, guid: d4cd9640bcffc4444b576a9b712971b2, type: 3}
+  - {fileID: 919132149155446097, guid: 99c98242e3d87124ba89ca3ccc106285, type: 3}
+  - {fileID: 919132149155446097, guid: f89acf902b2d8ce4698d0c48d2151b16, type: 3}

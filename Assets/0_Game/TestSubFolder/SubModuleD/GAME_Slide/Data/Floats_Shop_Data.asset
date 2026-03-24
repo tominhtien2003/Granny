@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3bdd44488e95e94d917ceaeebd56596, type: 3}
+  m_Name: Floats_Shop_Data
+  m_EditorClassIdentifier: 
+  m_wingShopItemData:
+  - m_displayIcon: {fileID: 21300000, guid: 4e4f90d912ece9347abb7253c67746dc, type: 3}
+    m_itemName: Basic
+    m_itemPrice: 30
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: fe158fd1f8ddcbd439602e131afedc66, type: 2}
+    m_climbSpeed: 0.8
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: 371ee40ecf3b216479d095295a39778c, type: 3}
+    m_itemName: Watermelon
+    m_itemPrice: 85
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 46e9c1fc4d2f5e94fa63de04b239a79f, type: 2}
+    m_climbSpeed: 1.12
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: 85f33cd504a7df047b2839d823801fe8, type: 3}
+    m_itemName: Starfish
+    m_itemPrice: 180
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: a8043319f79db11428d0bae86f56356f, type: 2}
+    m_climbSpeed: 1.568
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: 50b8e215086ad5c478442b2e5eb92bd5, type: 3}
+    m_itemName: Rubber Ducky
+    m_itemPrice: 760
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: b4a6bf63642e82d4788240fa590fa3e1, type: 2}
+    m_climbSpeed: 2.1952
+    m_gemPrice: 10
+  - m_displayIcon: {fileID: 21300000, guid: 1e5e484287e4df946ba2a6159ee622bc, type: 3}
+    m_itemName: Wooden Boat
+    m_itemPrice: 4300
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 64900b7ea452dbe4b8626dee15cb5522, type: 2}
+    m_climbSpeed: 3.0732799
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: 1aa0c09428ee9bf498c40851a72da27b, type: 3}
+    m_itemName: Inflatable Boat
+    m_itemPrice: 23000
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 1694df0c802d3c74a9aa22eaa630bcd1, type: 2}
+    m_climbSpeed: 4.302592
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: fb277f3227746cd42afb1f3677479281, type: 3}
+    m_itemName: Unicorn
+    m_itemPrice: 103500
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 985412a467e023b419ec5dc506196992, type: 2}
+    m_climbSpeed: 6.023628
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: e2b28901ce7004246a4bb62ea2ce4d17, type: 3}
+    m_itemName: Speedboat
+    m_itemPrice: 465750
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 0415fde04327bf44e9d32590820cae78, type: 2}
+    m_climbSpeed: 8.43308
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: e028d54119467dd439048570c246678e, type: 3}
+    m_itemName: Turtle
+    m_itemPrice: 2095875
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: c89d6bd0b61ac4a44ac59fb8616c9c0a, type: 2}
+    m_climbSpeed: 11.806312
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: da9326a2e14d3ed489542111131f6d88, type: 3}
+    m_itemName: Yatch
+    m_itemPrice: 9431437.5
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 9bc7e6b9f6045424ca21618491fc5c31, type: 2}
+    m_climbSpeed: 16.528835
+    m_gemPrice: 7
+  - m_displayIcon: {fileID: 21300000, guid: 10fd53d1e6817d34697b62d1ca7e6ae0, type: 3}
+    m_itemName: Fat Boat
+    m_itemPrice: 42441468.75
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 992fb6361dc5a064a8ea39d9aa6bde98, type: 2}
+    m_climbSpeed: 23.14037
+    m_gemPrice: 7
+  - m_displayIcon: {fileID: 21300000, guid: bcbf599d3c1a7b249880a2096255b525, type: 3}
+    m_itemName: Shark
+    m_itemPrice: 190986609.375
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 41ccbc6e33a558c41bc9eabedbc1d130, type: 2}
+    m_climbSpeed: 32.396515
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: 5c58c52ed0d667b43bcd7827365516d5, type: 3}
+    m_itemName: Dragon
+    m_itemPrice: 859439742.1875
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: ee336f3c010bc7f4cba6f9084665507e, type: 2}
+    m_climbSpeed: 45.35512
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: da65e83b7b50ede44adb53e4f56eb2d2, type: 3}
+    m_itemName: Super Inflatable
+    m_itemPrice: 3867478839.84375
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: a7ea0aca22487d54388c036ec408a9b6, type: 2}
+    m_climbSpeed: 63.49717
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: 450e9356fb939e14980c381cf5eec485, type: 3}
+    m_itemName: Jet Ski
+    m_itemPrice: 17403654779.296875
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 3069c8f165dd77c4891e41ad1020be80, type: 2}
+    m_climbSpeed: 88.896034
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: d58ecfcc96ebbdd4e973d5c6417aa889, type: 3}
+    m_itemName: 'Kayak '
+    m_itemPrice: 78316446506.83594
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 560cfa1f3c7e24e498f1f8f9972396ff, type: 2}
+    m_climbSpeed: 124.454445
+    m_gemPrice: 30
+  - m_displayIcon: {fileID: 21300000, guid: 41e4b17aa08ba404eac651c63c751d99, type: 3}
+    m_itemName: Super Speedboat
+    m_itemPrice: 352424009280.7617
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 2c195bb2676d1a340a5fc58bf9719d6e, type: 2}
+    m_climbSpeed: 174.23622
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: 325312a5ec63d264fa097b8d6bb12680, type: 3}
+    m_itemName: The Creature
+    m_itemPrice: 1585908041763.4277
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: f4485f71882e0d24e8ddf1b5262a6d8e, type: 2}
+    m_climbSpeed: 243.93071
+    m_gemPrice: 15
+  - m_displayIcon: {fileID: 21300000, guid: 36bbcb4a83ed73443a58ddc60f154911, type: 3}
+    m_itemName: Avocado
+    m_itemPrice: 7136586187935.425
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 92f12e4c99f9207458d90f167790644c, type: 2}
+    m_climbSpeed: 341.503
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: ef771470e021a664a9eac8b84fd46c86, type: 3}
+    m_itemName: Rainbow
+    m_itemPrice: 32114637845709.41
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 4c49c6ef3c21ac24ea6eb3dd10e247ba, type: 2}
+    m_climbSpeed: 478.1042
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: bfbf307dea2c4e3458808bc3efa28acd, type: 3}
+    m_itemName: Dolphin
+    m_itemPrice: 144515870305692.34
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: cdcedbf2e1756174a827602723424582, type: 2}
+    m_climbSpeed: 669.3458
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: 560f198e4b7640e4da3a4efd1f0b099b, type: 3}
+    m_itemName: Crocodile
+    m_itemPrice: 650321416375615.5
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 536568b23dc9fe548a06c658684fd0ff, type: 2}
+    m_climbSpeed: 937.08417
+    m_gemPrice: 50
+  - m_displayIcon: {fileID: 21300000, guid: 805c5d9f79b17ae4b805f253559f76d2, type: 3}
+    m_itemName: Rainbow Jellyfish
+    m_itemPrice: 2926446373690270
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 051f50d92aa1bbd46ac404e6d693a823, type: 2}
+    m_climbSpeed: 1311.9178
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: cdd1a2eb5f9b85047b5968b66a027de4, type: 3}
+    m_itemName: Pizza Slice
+    m_itemPrice: 13169008681606216
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 5263369b7d703354a89ca3a12f78b36d, type: 2}
+    m_climbSpeed: 1836.6849
+    m_gemPrice: 65
+  - m_displayIcon: {fileID: 21300000, guid: 565c0cc12eb94bf4aabefbb974b6fe33, type: 3}
+    m_itemName: Ice Cream
+    m_itemPrice: 59260539067227970
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 3126ae39d668cd14e9ae9cffdf551f7c, type: 2}
+    m_climbSpeed: 2571.359
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: 02a1bb12b069ba04a8d3a49576b413e7, type: 3}
+    m_itemName: Donut
+    m_itemPrice: 2.6667242580252586e+17
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: e883810dd1020a94a9994fe93bb1a8d8, type: 2}
+    m_climbSpeed: 3599.9023
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: 5f500dcc292ead9469e0bdb0158d612b, type: 3}
+    m_itemName: Beaver
+    m_itemPrice: 1.2000259161113664e+18
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 4a7c2f8455afd304db613cf0da4935aa, type: 2}
+    m_climbSpeed: 5039.8633
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: 42edad23a37ecc44f9633573cc414b19, type: 3}
+    m_itemName: Super Unicorn
+    m_itemPrice: 5.400116622501149e+18
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 22991812483e00248b3a9b5e29b16966, type: 2}
+    m_climbSpeed: 7055.8086
+    m_gemPrice: 120
+  - m_displayIcon: {fileID: 21300000, guid: 3205ebc5293dcd54fb117730770fe7ce, type: 3}
+    m_itemName: Ultra Floatie
+    m_itemPrice: 2.430052480125517e+19
+    m_itemAdAmount: 1
+    m_wingsData: {fileID: 11400000, guid: 20b727ebc11f9bb448465cfc49589715, type: 2}
+    m_climbSpeed: 9878.132
+    m_gemPrice: 160
+  m_startingSpeed: 0.3
+  m_wingDatas:
+  - {fileID: 11400000, guid: a7ea0aca22487d54388c036ec408a9b6, type: 2}
+  - {fileID: 11400000, guid: 3069c8f165dd77c4891e41ad1020be80, type: 2}
+  - {fileID: 11400000, guid: 560cfa1f3c7e24e498f1f8f9972396ff, type: 2}
+  - {fileID: 11400000, guid: 2c195bb2676d1a340a5fc58bf9719d6e, type: 2}
+  - {fileID: 11400000, guid: f4485f71882e0d24e8ddf1b5262a6d8e, type: 2}
+  - {fileID: 11400000, guid: 92f12e4c99f9207458d90f167790644c, type: 2}
+  - {fileID: 11400000, guid: 4c49c6ef3c21ac24ea6eb3dd10e247ba, type: 2}
+  - {fileID: 11400000, guid: cdcedbf2e1756174a827602723424582, type: 2}
+  - {fileID: 11400000, guid: 536568b23dc9fe548a06c658684fd0ff, type: 2}
+  - {fileID: 11400000, guid: 051f50d92aa1bbd46ac404e6d693a823, type: 2}
+  - {fileID: 11400000, guid: 5263369b7d703354a89ca3a12f78b36d, type: 2}
+  - {fileID: 11400000, guid: 3126ae39d668cd14e9ae9cffdf551f7c, type: 2}
+  - {fileID: 11400000, guid: e883810dd1020a94a9994fe93bb1a8d8, type: 2}
+  - {fileID: 11400000, guid: 4a7c2f8455afd304db613cf0da4935aa, type: 2}
+  - {fileID: 11400000, guid: 22991812483e00248b3a9b5e29b16966, type: 2}
+  - {fileID: 11400000, guid: 20b727ebc11f9bb448465cfc49589715, type: 2}

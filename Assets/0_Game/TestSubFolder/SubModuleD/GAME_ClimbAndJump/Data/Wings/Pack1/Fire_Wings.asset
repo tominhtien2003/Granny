@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54f12c96c54a8c409a35ba52d4ea40d, type: 3}
+  m_Name: Fire_Wings
+  m_EditorClassIdentifier: 
+  m_mesh: {fileID: -1562275218897716241, guid: c046c922419928c4887f845001a68e79, type: 3}
+  m_materials:
+  - {fileID: 2100000, guid: 156d6f370b1e1f64c8cf2642a836bb9d, type: 2}
+  m_particle: {fileID: 185524, guid: 63aa581eab4648341b353950618d110f, type: 3}
+  m_overrideScale: {x: 2, y: 0.003968255, z: 1.488096}

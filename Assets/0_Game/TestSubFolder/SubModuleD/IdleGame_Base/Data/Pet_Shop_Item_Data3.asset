@@ -1,0 +1,512 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d91c0dd43ead4874eb75f27335929e47, type: 3}
+  m_Name: Pet_Shop_Item_Data3
+  m_EditorClassIdentifier: 
+  m_petItems:
+  - m_displayIcon: {fileID: 21300000, guid: 57342d494769c0f47a7484daa2569249, type: 3}
+    m_itemName: Demon
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 1.5
+    m_mesh: {fileID: -7347767339974870462, guid: f5144697ac9591e4293a460e5b4f4e8a,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 29f56bf33dd53a949923249cdf4424a2, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 787d91e089669024088da25a1c48ecc6, type: 2}
+    m_rarityIndex: 0
+    m_id: 0
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: d8fd322a6c9192042846bdf0f7ad6198, type: 3}
+    m_itemName: Seal
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 2
+    m_mesh: {fileID: 4611058199092460519, guid: e26dc599d1cb8b149bac1466419d7b46,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: b63210627b49be849918f74673ba3c07, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 1
+    m_id: 0
+    m_gemPrice: 5
+  - m_displayIcon: {fileID: 21300000, guid: 84375f53619be74428361ccfadf1745f, type: 3}
+    m_itemName: Cat
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 3
+    m_mesh: {fileID: 6723975045392009586, guid: 1786a5f237a803e4e8307803292972d2,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: da481d6d2740bb348b964799e381b384, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 08a762397050faf409221a83c5b50a71, type: 2}
+    m_rarityIndex: 2
+    m_id: 0
+    m_gemPrice: 10
+  - m_displayIcon: {fileID: 21300000, guid: 3ce9db4fc6f80ca4596f8b84fa513172, type: 3}
+    m_itemName: Luminous Dragonfly
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 5
+    m_mesh: {fileID: -7837064346550019376, guid: e2ed3f927b08927419199cdf8fa0284f,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 15bba011329ba7c4d8c289fafd7aa139, type: 2}
+    m_trailMat: {fileID: 2100000, guid: e28a6b5319d6b6f40acdecc2456a37fd, type: 2}
+    m_rarityIndex: 3
+    m_id: 0
+    m_gemPrice: 15
+  - m_displayIcon: {fileID: 21300000, guid: 80ff60893835cbb4e9666a13b220cf1a, type: 3}
+    m_itemName: Cappuccino Assasino
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 20
+    m_mesh: {fileID: 913956510054024041, guid: a01e54585d5f6914795b3d5ceffaee4e, type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 2d39c1b3468559c4796bb36e3ea885a7, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 4
+    m_id: 0
+    m_gemPrice: 20
+  - m_displayIcon: {fileID: 21300000, guid: adcbc3bbe255f844eb6dde2a22a240b6, type: 3}
+    m_itemName: Wizard Owl
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 24
+    m_mesh: {fileID: -4881568997191487246, guid: b7ab0f9a174ba9447996c8e33c9f0725,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 8a7a6cf371d3d6048a9edd11262b6653, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 0
+    m_id: 0
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: 56ec9adf99ea06a4488777b915fad8fb, type: 3}
+    m_itemName: Crystal Rabbit
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 41
+    m_mesh: {fileID: 8730937240050675676, guid: fa21d9239207139458debcc861e732aa,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 2d82d3e981c128e428ccbf45b745c006, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 787d91e089669024088da25a1c48ecc6, type: 2}
+    m_rarityIndex: 1
+    m_id: 0
+    m_gemPrice: 5
+  - m_displayIcon: {fileID: 21300000, guid: 03e3a87a7490e8b45a4de541e4f61f7e, type: 3}
+    m_itemName: Dazzling Racoon
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 81
+    m_mesh: {fileID: -8066123410997403509, guid: 9bfdd1b6dae67cc46b24e0a0e976dde9,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 5ac2afc6cce6aca4180a1aa508c25968, type: 2}
+    m_trailMat: {fileID: 2100000, guid: b15d5bc42a932aa43869f1e5cf82e842, type: 2}
+    m_rarityIndex: 2
+    m_id: 0
+    m_gemPrice: 10
+  - m_displayIcon: {fileID: 21300000, guid: 97535c4514c516d429a3b8c269fd26e8, type: 3}
+    m_itemName: Bombobini Gusini
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 170
+    m_mesh: {fileID: 162138013703648924, guid: 3c62ee669f5c388489d69cd7fb972dc4, type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 2d39c1b3468559c4796bb36e3ea885a7, type: 2}
+    m_trailMat: {fileID: 2100000, guid: e28a6b5319d6b6f40acdecc2456a37fd, type: 2}
+    m_rarityIndex: 3
+    m_id: 0
+    m_gemPrice: 15
+  - m_displayIcon: {fileID: 21300000, guid: 04815b63b2ffcde47b185eb96ce82506, type: 3}
+    m_itemName: Girafa Celeste
+    m_itemPrice: 0
+    m_itemAdAmount: 2
+    m_baseMultiplier: 310
+    m_mesh: {fileID: -1575132049310879489, guid: 1d00878a0896f1c4693b2b6193b4e163,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 3e3d2c842185acb4f95f392bff28b893, type: 2}
+    - {fileID: 2100000, guid: 2d39c1b3468559c4796bb36e3ea885a7, type: 2}
+    - {fileID: 2100000, guid: 2d39c1b3468559c4796bb36e3ea885a7, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 08a762397050faf409221a83c5b50a71, type: 2}
+    m_rarityIndex: 4
+    m_id: 0
+    m_gemPrice: 10
+  - m_displayIcon: {fileID: 21300000, guid: ef7d025a5f9bf0649bde2cc7f7855af9, type: 3}
+    m_itemName: Deer
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 770
+    m_mesh: {fileID: -1522187519417818454, guid: 2829ba7d81396c141808a786f1e067da,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: ad0f78278ad797443821d4e4dc5ef33d, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 08a762397050faf409221a83c5b50a71, type: 2}
+    m_rarityIndex: 0
+    m_id: 0
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: 23171645a78d98745bef1e859769de16, type: 3}
+    m_itemName: Hawke
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_baseMultiplier: 1250
+    m_mesh: {fileID: -6169084689386569859, guid: 4e94155b15602214c849fb897dcccf6e,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 03bb120f3a84c6f4a980dfff95f909d3, type: 2}
+    m_trailMat: {fileID: 2100000, guid: e28a6b5319d6b6f40acdecc2456a37fd, type: 2}
+    m_rarityIndex: 1
+    m_id: 0
+    m_gemPrice: 8
+  - m_displayIcon: {fileID: 21300000, guid: 81c5686122ba9684fb21409ef161a3db, type: 3}
+    m_itemName: Moonlight Leopard
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 2200
+    m_mesh: {fileID: -4865979330952443179, guid: f6ad80a43e33d384d8081da92bcdabf1,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: d7b1fe6d64123da448a652705015e8c6, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 2
+    m_id: 0
+    m_gemPrice: 10
+  - m_displayIcon: {fileID: 21300000, guid: 40a33c74c414b83428dfb734349c27bb, type: 3}
+    m_itemName: Ballerini Cappuccina
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 4300
+    m_mesh: {fileID: 3578489465968768461, guid: 4ea3c47897f01e64b8898b25d208894d,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 2d39c1b3468559c4796bb36e3ea885a7, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 787d91e089669024088da25a1c48ecc6, type: 2}
+    m_rarityIndex: 3
+    m_id: 0
+    m_gemPrice: 15
+  - m_displayIcon: {fileID: 21300000, guid: 15ccd3a88e962cb4aa39bc0a3b53e818, type: 3}
+    m_itemName: Lirili Larila
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 9000
+    m_mesh: {fileID: 7709383448580207907, guid: d663beb9935bcb14d8e25aa5f5b44647,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 2d39c1b3468559c4796bb36e3ea885a7, type: 2}
+    m_trailMat: {fileID: 2100000, guid: b15d5bc42a932aa43869f1e5cf82e842, type: 2}
+    m_rarityIndex: 4
+    m_id: 0
+    m_gemPrice: 20
+  - m_displayIcon: {fileID: 21300000, guid: 239998017b48e91449a8ab95af048869, type: 3}
+    m_itemName: Lunar Panda
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 44000
+    m_mesh: {fileID: 2063745379814013731, guid: 66e867e3819ea3d4ca0096f387ff209d,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: d4b94d665e14bd248812ec4f90672f1f, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 0
+    m_id: 0
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: 62452bf0b6ae8d746b43f2c2b6ae5c0f, type: 3}
+    m_itemName: Mystic Froggy
+    m_itemPrice: 0
+    m_itemAdAmount: 5
+    m_baseMultiplier: 90000
+    m_mesh: {fileID: -6687222387618934704, guid: 26f8683159c85ac4198d14c70af003fa,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 01dfaa888e505ea4484e50ff6afc1999, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 1
+    m_id: 0
+    m_gemPrice: 10
+  - m_displayIcon: {fileID: 21300000, guid: ff8eda7a9cc18694d91461ea3370bf0d, type: 3}
+    m_itemName: Pixie Kitsune
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 177000
+    m_mesh: {fileID: -7030552136127527026, guid: 04aae35dacb53de47a3f4b3660e3c99d,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 1efe6c64cfb53934490b1dc31ca013e6, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 2
+    m_id: 0
+    m_gemPrice: 10
+  - m_displayIcon: {fileID: 21300000, guid: a547a978ce6a65843b401d165b8be43d, type: 3}
+    m_itemName: Sparkle Bear
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 350000
+    m_mesh: {fileID: 6529686409165066608, guid: 1573259038c613a49ae12f9ca11b6624,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 18e4551c350d2d34ab7101f3be214056, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 3
+    m_id: 0
+    m_gemPrice: 15
+  - m_displayIcon: {fileID: 21300000, guid: 6b32118fdb3288b4f8a0305320ec7b8e, type: 3}
+    m_itemName: Twilight Wolf
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 500000
+    m_mesh: {fileID: -7756083408648313632, guid: 2827ced054599474dbd279d6d38dc09e,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: b81cdaf0dd2750e4b96e93b5614c6ad7, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 4
+    m_id: 0
+    m_gemPrice: 20
+  - m_displayIcon: {fileID: 21300000, guid: 2e4385de19a4da748b582d44914f6323, type: 3}
+    m_itemName: Glorbo Fruttodrillo
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 1200000
+    m_mesh: {fileID: 857666872367676143, guid: 7b4c23c56f9c37e4c8d7222d42e390bd, type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 2d39c1b3468559c4796bb36e3ea885a7, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 0
+    m_id: 0
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: 4bae47c287623194a8c7778b0c5d3574, type: 3}
+    m_itemName: Golden Cappuccino
+    m_itemPrice: 0
+    m_itemAdAmount: 5
+    m_baseMultiplier: 2700000
+    m_mesh: {fileID: 913956510054024041, guid: a01e54585d5f6914795b3d5ceffaee4e, type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 0447ff8fd39a83740b0b91f51791da99, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 1
+    m_id: 0
+    m_gemPrice: 30
+  - m_displayIcon: {fileID: 21300000, guid: dab515a562b4d8242ae0e793395879b5, type: 3}
+    m_itemName: Golden Noobini
+    m_itemPrice: 0
+    m_itemAdAmount: 6
+    m_baseMultiplier: 4800000
+    m_mesh: {fileID: 3053136425049384749, guid: 32a2de195738ead4786c42f97597fb32,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 0447ff8fd39a83740b0b91f51791da99, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 2
+    m_id: 0
+    m_gemPrice: 45
+  - m_displayIcon: {fileID: 21300000, guid: 1ce0a1d03d11043449a33bb1f1545e52, type: 3}
+    m_itemName: Golden Bombombini
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 9600000
+    m_mesh: {fileID: 162138013703648924, guid: 3c62ee669f5c388489d69cd7fb972dc4, type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 0447ff8fd39a83740b0b91f51791da99, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 3
+    m_id: 0
+    m_gemPrice: 15
+  - m_displayIcon: {fileID: 21300000, guid: 5c3e02b28b61c5e4d82623a8786fc2d7, type: 3}
+    m_itemName: La Vaca Saturno
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 19000000
+    m_mesh: {fileID: -6293733218574526650, guid: 2b9a06d89bf2b6c4489d85d27a3533c1,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 2d39c1b3468559c4796bb36e3ea885a7, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 4
+    m_id: 0
+    m_gemPrice: 20
+  - m_displayIcon: {fileID: 21300000, guid: 859c262408746bb4d82ed766babeff90, type: 3}
+    m_itemName: Esok Sekolah
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_baseMultiplier: 160000000
+    m_mesh: {fileID: 7807538432633192378, guid: 9f258855ee91e4e45bb4418b76cbdd48,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 1a005483b8403ae4eb7ca671ecb55e8f, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 0
+    m_id: 0
+    m_gemPrice: 0
+  - m_displayIcon: {fileID: 21300000, guid: 3d3ab47271477304dacc3155ab23697f, type: 3}
+    m_itemName: Los Hotspot
+    m_itemPrice: 0
+    m_itemAdAmount: 10
+    m_baseMultiplier: 320000000
+    m_mesh: {fileID: 587366007896238738, guid: 8b01f9b36db2e7d409fcd18a93d8d600, type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 1a005483b8403ae4eb7ca671ecb55e8f, type: 2}
+    - {fileID: 2100000, guid: 1a005483b8403ae4eb7ca671ecb55e8f, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 1
+    m_id: 0
+    m_gemPrice: 70
+  - m_displayIcon: {fileID: 21300000, guid: d7f30caff9cc5f144ba8241cc319d271, type: 3}
+    m_itemName: Karkerkar Kurkur
+    m_itemPrice: 0
+    m_itemAdAmount: 10
+    m_baseMultiplier: 650000000
+    m_mesh: {fileID: 3435274819712908161, guid: fb655d3bdf4f8eb4c9fd88d147effca3,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 2d39c1b3468559c4796bb36e3ea885a7, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 2
+    m_id: 0
+    m_gemPrice: 10
+  - m_displayIcon: {fileID: 21300000, guid: bfb642b4b5b9fb44cadc24c15fd1a8a3, type: 3}
+    m_itemName: Tralalero Tralala
+    m_itemPrice: 0
+    m_itemAdAmount: 10
+    m_baseMultiplier: 1400000000
+    m_mesh: {fileID: 3649226349430579114, guid: b3a6704f1916c1c47aa6806832f45de8,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 1a005483b8403ae4eb7ca671ecb55e8f, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 3
+    m_id: 0
+    m_gemPrice: 15
+  - m_displayIcon: {fileID: 21300000, guid: a9fbc8a9e927d1d49949cd9be4baf7f1, type: 3}
+    m_itemName: Udindindindun
+    m_itemPrice: 0
+    m_itemAdAmount: 10
+    m_baseMultiplier: 3000000000
+    m_mesh: {fileID: 4711208715938537054, guid: 6f60a57d92f2fa74285db763fcf43c73,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 1a005483b8403ae4eb7ca671ecb55e8f, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 4
+    m_id: 0
+    m_gemPrice: 20
+  - m_displayIcon: {fileID: 21300000, guid: 40fcbdff4adfc8140a475119b5587caf, type: 3}
+    m_itemName: Rainbow Ballerina
+    m_itemPrice: 0
+    m_itemAdAmount: 10
+    m_baseMultiplier: 4000000000
+    m_mesh: {fileID: 3578489465968768461, guid: 4ea3c47897f01e64b8898b25d208894d,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: d2434454759d97142a8e8842b752888d, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 4
+    m_id: 0
+    m_gemPrice: 80
+  - m_displayIcon: {fileID: 21300000, guid: b578168ba78f1fc4195e5acbf956d60f, type: 3}
+    m_itemName: Rainbow Glorbo Fruttodrillo
+    m_itemPrice: 0
+    m_itemAdAmount: 10
+    m_baseMultiplier: 5000000000
+    m_mesh: {fileID: 857666872367676143, guid: 7b4c23c56f9c37e4c8d7222d42e390bd, type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: d2434454759d97142a8e8842b752888d, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 4
+    m_id: 0
+    m_gemPrice: 90
+  - m_displayIcon: {fileID: 21300000, guid: a1c6ed40fff72544586f8cd46817f965, type: 3}
+    m_itemName: Chicleteira Bicicleteira
+    m_itemPrice: 0
+    m_itemAdAmount: 10
+    m_baseMultiplier: 10000000000
+    m_mesh: {fileID: -385692087328524806, guid: d88d526cabe8cc442b97f8260f964ccc,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: ec27229b48643074793b540512e498d1, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 4
+    m_id: 0
+    m_gemPrice: 100
+  - m_displayIcon: {fileID: 21300000, guid: 21a260567d7aa36408bf3081ac4db88b, type: 3}
+    m_itemName: Pepperoni Pizzano
+    m_itemPrice: 0
+    m_itemAdAmount: 10
+    m_baseMultiplier: 10000000000
+    m_mesh: {fileID: 6138370451226141628, guid: d013a0c4bb7b22644875b49c09127655,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: ec27229b48643074793b540512e498d1, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 4
+    m_id: 0
+    m_gemPrice: 100
+  - m_displayIcon: {fileID: 21300000, guid: 1c6dc8b1fe877934dbabe9f41ef977a7, type: 3}
+    m_itemName: Pakrahmatmamat
+    m_itemPrice: 0
+    m_itemAdAmount: 10
+    m_baseMultiplier: 10000000000
+    m_mesh: {fileID: 2284143689169043567, guid: 463f2a7a08147d445b5fdd290a3684c6,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: ec27229b48643074793b540512e498d1, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 4
+    m_id: 0
+    m_gemPrice: 100
+  - m_displayIcon: {fileID: 21300000, guid: 3d7260136d91cc741ad9cfcf6115356d, type: 3}
+    m_itemName: Strawberry Elephant
+    m_itemPrice: 0
+    m_itemAdAmount: 12
+    m_baseMultiplier: 11000000000
+    m_mesh: {fileID: -3457691301366502846, guid: 15b775b9fd3ec204eaef1852b4831a71,
+      type: 3}
+    m_mats:
+    - {fileID: 2100000, guid: 1a005483b8403ae4eb7ca671ecb55e8f, type: 2}
+    m_trailMat: {fileID: 2100000, guid: 5e2db7869b8546e40b5d6715b0ee5ad6, type: 2}
+    m_rarityIndex: 4
+    m_id: 0
+    m_gemPrice: 120
+  m_multi:
+  - 1.5
+  - 2
+  - 3
+  - 5
+  - 20
+  - 24
+  - 41
+  - 81
+  - 170
+  - 310
+  - 770
+  - 1250
+  - 2200
+  - 4300
+  - 9000
+  - 44000
+  - 90000
+  - 177000
+  - 350000
+  - 500000
+  - 1200000
+  - 2700000
+  - 4800000
+  - 9600000
+  - 19000000
+  - 160000000
+  - 320000000
+  - 650000000
+  - 1400000000
+  - 3000000000
+  - 4000000000
+  - 4000000000

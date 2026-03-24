@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54f12c96c54a8c409a35ba52d4ea40d, type: 3}
+  m_Name: Float14
+  m_EditorClassIdentifier: 
+  m_mesh: {fileID: 7219990918010009210, guid: 4dc9f497ea2be40458cd73d8f417264c, type: 3}
+  m_materials:
+  - {fileID: 2100000, guid: bcbaaef32f20aab4894d455bb6c194cb, type: 2}
+  m_particle: {fileID: 0}
+  m_overrideScale: {x: 1.69, y: 1.69, z: 1.69}
+  m_overrideRot: {x: 19.034517, y: 0.0000036126244, z: 90.000015}
+  m_overridePos: {x: -0.109, y: -0.131, z: 0.055}

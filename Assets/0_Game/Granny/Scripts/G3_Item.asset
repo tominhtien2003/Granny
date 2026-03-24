@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8bab05a0d04e4945837c81717d51c1e, type: 3}
+  m_Name: G3_Item
+  m_EditorClassIdentifier: 
+  items:
+  - itemName: Key
+    describe: 
+    icon: {fileID: 21300000, guid: 46318660caab11b42bab2cc1fadb940e, type: 3}
+    itemPrefab: {fileID: 7921911460039539401, guid: 1d7a7f0de0bdffb498e74861d7dd1fe2,
+      type: 3}
+    canRoll: 0
+    itemType: 2
+  - itemName: Speed
+    describe: x2 SPEED
+    icon: {fileID: 21300000, guid: 614d9321d00558a4abddb9a1e73423c6, type: 3}
+    itemPrefab: {fileID: 7226292114909998656, guid: 9983bfb41f759e548afbd3ffd2a6cef5,
+      type: 3}
+    canRoll: 1
+    itemType: 1
+  - itemName: JumpHigh
+    describe: x2 JUMP
+    icon: {fileID: 21300000, guid: ea5ec844b6760d1478708f803d4c4b09, type: 3}
+    itemPrefab: {fileID: 3474291262665854815, guid: 2b0229a93a4a16d4fb13a87ed1bb3920,
+      type: 3}
+    canRoll: 1
+    itemType: 1

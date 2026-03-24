@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54f12c96c54a8c409a35ba52d4ea40d, type: 3}
+  m_Name: Dragon_wings
+  m_EditorClassIdentifier: 
+  m_mesh: {fileID: -888404026515264504, guid: d7bbd128bb84a1241938eb2ce1369369, type: 3}
+  m_materials:
+  - {fileID: 2100000, guid: 4dcdd79e90c40a84bade0ca036d8db76, type: 2}
+  m_particle: {fileID: 168812, guid: 4ead6f2795f50fc419bc63ce3a67d375, type: 3}
+  m_overrideScale: {x: 2, y: 0.003968255, z: 1.488096}

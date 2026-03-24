@@ -1,0 +1,652 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6949c81299e2f9b429d7c1ebb3294fc5, type: 3}
+  m_Name: skin_shop_data
+  m_EditorClassIdentifier: 
+  m_shopItemData:
+  - m_displayIcon: {fileID: 21300000, guid: a42b715ea4ce7874e81bb268a252f0d0, type: 3}
+    m_itemName: Luffy
+    m_itemPrice: 0
+    m_itemAdAmount: 1
+    m_wingAvailable: 0
+    m_mesh: {fileID: -3904105438743750391, guid: edb63fc29a7afb7409f540c09eece2ed, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: d4f1f4c03986fe744bb7e8aa0ae0d7e7, type: 2}
+    - {fileID: 2100000, guid: 2bfd684fc1ce26845bb5519e49350b2d, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: b317d06acad05504294ff3b382e5ed92, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: a8a120cab63f66249b1fb14ffe7aa460, type: 3}
+    m_itemName: Rumi
+    m_itemPrice: 0
+    m_itemAdAmount: 2
+    m_wingAvailable: 0
+    m_mesh: {fileID: 8595179499699883742, guid: 5197429d051fcd54183d2b45ecd86f90, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: e3f5a87d39ddc0a4f83fcde77b89b547, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 16aee0f7a110ebe4bbc5901d341c7fea, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 37d1d36787ac9a746b5cc39c31515aaa, type: 3}
+    m_itemName: Mira
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_wingAvailable: 0
+    m_mesh: {fileID: 7108777247384600004, guid: 918d0e0f2c626284a92a03a54b9af950, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 0f6a6cbdffc5ce440897069b05aca025, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: d003e2029b073fe4ea706b2019c0a430, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: e3916585dcb39db4d9c5ddb625239981, type: 3}
+    m_itemName: Zoey
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: -8157685168866035441, guid: 390abd2117592bd4795fcf0a668b1b28, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: cef4b05bbd3a26a4aab355a13a4f4af7, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 2b5b4cf7d3026ac4f9941d3f91135881, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 5a28d489745a5d944bb4cd4e62c1644d, type: 3}
+    m_itemName: Crimson Beast
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: -9092734704524862282, guid: bd9c0693ec9f97840a05f8f67251d486, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: ff912cd164c563144a2c2116c9f57b9a, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: b64e0c91e1900e04f9c22b8f88b23e12, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 98736dfb7fd5d7c4ca19298ae6eebf8b, type: 3}
+    m_itemName: Void Guardian
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: -4819824128268598382, guid: a7022b35865f87045b1d04a56ab46782, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: b198ddca00028d044a9546bc5a415e7e, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 88e32f73ea604f348b22f95a9dc5a9df, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: e765da5c8df342e4fad6036fbf02ccb7, type: 3}
+    m_itemName: Candy Riot
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: -1097439576345876221, guid: 6b0e26e6c5b58dc4da74418aaa46ccbf, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 7f2983276f4b27843a6ca042a5236be5, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 0e4be7c7897e5af4781ffddbba5f6d3f, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 9075fbdb105254546bf2f0543e39f1c0, type: 3}
+    m_itemName: Clockwork Lord
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: -625602879433584096, guid: 84e2015b323a2f641b5d2a543771709a, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: e493f0bc9ce6aec4c956afcc49d1af0e, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 3a1dc67b8de232e4f851e8acba1169d4, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 856add76dc908df45a95a14a67e3baac, type: 3}
+    m_itemName: Neon Cat
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: 2964894687698764704, guid: 210597ebc9f9adf4db2d7ece4e1b77f1, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 983d014712403f54e9c5e8dca69f180b, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 315a32456b7927349b3a226e265d257e, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 8992b3f5984f8d640b8a7404080fd876, type: 3}
+    m_itemName: Iron Guy
+    m_itemPrice: 0
+    m_itemAdAmount: 1
+    m_wingAvailable: 0
+    m_mesh: {fileID: -6241131743969663949, guid: fca43a0555d3ac24bb1379540da00479, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 72428c1c5c9582145bb4c6adb14f8b4a, type: 2}
+    - {fileID: 2100000, guid: d362a096b57181c4ab466dbe4bcdfff0, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: d673f29a955241e4ba483c50ce8716f9, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 5071aa9eb92534f418388d8bd81c1e2f, type: 3}
+    m_itemName: Dracula
+    m_itemPrice: 0
+    m_itemAdAmount: 1
+    m_wingAvailable: 0
+    m_mesh: {fileID: 637584273940439152, guid: fc5b3662c4006c94fae1b4683dfb0681, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 496e1385bf1cee54b829189c15359129, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 02cf734efa348b04cab2f3b3cc1ce9a8, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 5c676dd576b433a4298caa0b3f14a7c8, type: 3}
+    m_itemName: Spider Guy
+    m_itemPrice: 0
+    m_itemAdAmount: 1
+    m_wingAvailable: 0
+    m_mesh: {fileID: -5394404748766902617, guid: b1e7e499060fe6a40ac607f1052917e1, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: df9806a2b1749af4583f1d3c20da5a8c, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: e3650a90061261847bc902cdea141fcb, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: fb6e3a57f7fdc2e49a79f1b5f942c9ac, type: 3}
+    m_itemName: Prisoner
+    m_itemPrice: 0
+    m_itemAdAmount: 2
+    m_wingAvailable: 0
+    m_mesh: {fileID: -7873361502631117824, guid: b3dcf162cd7d77d4a8ac3b9a9d526478, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 0690afa2952caf345a577aa85901fc0f, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 60b751dc3b93d3a4c84b10c76d882211, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 6077fe87da713f044b131e26eb2fa32e, type: 3}
+    m_itemName: Blonde
+    m_itemPrice: 0
+    m_itemAdAmount: 2
+    m_wingAvailable: 0
+    m_mesh: {fileID: -2319891095240852985, guid: e9f73da0f815985439a4fe9d0a36bb9c, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 0cb856982ee76fa45a8c97f5b300a1a8, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: fd90b3b8e79613c44a2b27756c1d8455, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 2558a75f2a913ab41b6dcacd213c0d65, type: 3}
+    m_itemName: The Joke
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_wingAvailable: 0
+    m_mesh: {fileID: -588440669540064759, guid: aba338b077b162a44946abe964a2bef4, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 3b38c13425ae6c94695868bfc818546b, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 946e8a1a998d87b4a922629dee576528, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 173968a2cade1e7448592a4917505ba5, type: 3}
+    m_itemName: The Noob
+    m_itemPrice: 0
+    m_itemAdAmount: 1
+    m_wingAvailable: 0
+    m_mesh: {fileID: 780745430392041962, guid: 8c7b8b6230f1b4e41b3c2ff96428233c, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 9001eb8fcf54f874f9b407468cadffe0, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: ad2e25b9dfca548408de3c33452df697, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: cc72e53ff4f1c4941b6e9bac5fdb2f6e, type: 3}
+    m_itemName: Chef
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_wingAvailable: 0
+    m_mesh: {fileID: 6002506568420493964, guid: 63ee01cdc4ce9154fba1ec091f1a8641, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 7c1c7edbd6f939d4f884c3be3bca0d28, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: a389ed2712e10ac4cbc0463b86c407e1, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: f9d4050dd5c18ee41a0ba6905426a1c2, type: 3}
+    m_itemName: Number 9
+    m_itemPrice: 0
+    m_itemAdAmount: 1
+    m_wingAvailable: 0
+    m_mesh: {fileID: -2289931020055477223, guid: b0d58a0e988103048b0d51157203e73a, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: f1679fe2964e95342a32d25725e211a3, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: c0908841fae30084db840f5ad0ea7a81, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: ef711d469f042824285a83dc8a0d76de, type: 3}
+    m_itemName: Jacko
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: 7903043493865871724, guid: c768f89a77979b444bfece4b4cdf6cdb, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 31750e376dbd72949b7d9b0e54fbb462, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 887190b6adde5e041a5a2a4e0d067b19, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 80107a303f75af447ad5a96715da7b9d, type: 3}
+    m_itemName: Pink Hair
+    m_itemPrice: 0
+    m_itemAdAmount: 2
+    m_wingAvailable: 0
+    m_mesh: {fileID: 513494929842654486, guid: 20d6aa15ccc8c7745b0f75f42bb0b046, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 3c6d68c2f9488c747a3a93290c555fc6, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 65c51a4c86ac360438eae2300df21136, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 7dd915b962d349048abe5c1556523d1f, type: 3}
+    m_itemName: Princess
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_wingAvailable: 0
+    m_mesh: {fileID: 8015482394293389410, guid: 6396211cec5d4374aa8d005f4cfdf25f, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 551d50f8b5ea4154bb01342952e75716, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: f33ab6150b4e225408c81f83eef4a854, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 8b62fa6d4063e1247ba9f851e605905c, type: 3}
+    m_itemName: Glasses
+    m_itemPrice: 0
+    m_itemAdAmount: 1
+    m_wingAvailable: 0
+    m_mesh: {fileID: -8389253386662922109, guid: 92fc91e2db0fb9344952bbc074ad5268, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: a3e1543954170d74782f473d20ed1960, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 6ed95554d662cab4f96f807f21855883, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: eb9b5ee7c4e635f4b991f0acc86db870, type: 3}
+    m_itemName: Purple Hair
+    m_itemPrice: 0
+    m_itemAdAmount: 2
+    m_wingAvailable: 0
+    m_mesh: {fileID: -2570916445672198909, guid: 01c75c2b0e9dbf14ba998cdf770f2a96, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: f6eba060a83217347aa55aa35a8ac941, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 7de4b8ce794be944389dff24f3e5d023, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: a67d038db859deb44bf885f3953d25b4, type: 3}
+    m_itemName: Rabbit Hat
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: 3200501168955996579, guid: 11a5b45bb5e018b488e1d3286c1f60c6, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 2792fc70e9ea4114c943c97f27935f00, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 8886ac17e8875234cbc4e461e67b1060, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 0d9a75fbdda720344b44f735a75daffb, type: 3}
+    m_itemName: Visions
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 1
+    m_mesh: {fileID: -1238318038522933022, guid: 53bcb7e7c6a18b54687009064d1f678a, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 8cf9390145b4645498fa52b2d72e9eb0, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: d3f7ce15dbfa4574d82d5ca937b8c9fb, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: d0b6f831e20b25c4fb7b0aa40a8f68dc, type: 3}
+    m_itemName: Alien
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 1
+    m_mesh: {fileID: 2559359279380299414, guid: 39c52ecc98ee9d9448a4c62c36229b14, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: fa3632c174075344782ca33e41cd3a58, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 3617c948bc47ddc49999d7f2f82841b5, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 339974e60fde33f4cb145df6804a2f3f, type: 3}
+    m_itemName: Fish Man
+    m_itemPrice: 0
+    m_itemAdAmount: 2
+    m_wingAvailable: 0
+    m_mesh: {fileID: -7868325905054460741, guid: 45393cefe6db64647a99dcbf709093da, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: ce0a1e0aa3a302446be66fa626c4b1b3, type: 2}
+    - {fileID: 2100000, guid: e4383f28ac3b26e48a0f3b22b57ef12e, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 3722b71ad2caff64a9c9ff8fd0e55241, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 8c865cce216a503438c84d2a64e7917f, type: 3}
+    m_itemName: Glasses 2
+    m_itemPrice: 0
+    m_itemAdAmount: 2
+    m_wingAvailable: 0
+    m_mesh: {fileID: -1413730814169259089, guid: a58cab8a10ad4434da60a2ad624bfc10, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: a91155fc7f7cf3745bf7dc99e0f1e496, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: a6eca213fdb3f654baef0bd8f8ca9efd, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: e369d2b37b17a6a45ad8f1623fed6239, type: 3}
+    m_itemName: Bearded
+    m_itemPrice: 0
+    m_itemAdAmount: 2
+    m_wingAvailable: 0
+    m_mesh: {fileID: 4609160605527260045, guid: 0caccdce64b585c4d9f7692995d01e0d, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 932233b57ac37f146b88ef23e6947c55, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: c112f8aac782eab40ad917343e87d33f, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: eb816ce54da8e12439c2de36048e91ec, type: 3}
+    m_itemName: Cat ear
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_wingAvailable: 0
+    m_mesh: {fileID: 8976452669124637442, guid: 5c2d74e55c2c3574b965dc7516da5d3a, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 57c84681969112c449c1cee7b3ad3770, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: e74f129d32dd9274f82c2df909fe0a0f, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: df5be02e03d2f464690023a66a8a7483, type: 3}
+    m_itemName: Light Hat
+    m_itemPrice: 0
+    m_itemAdAmount: 2
+    m_wingAvailable: 0
+    m_mesh: {fileID: -3569961151837550937, guid: 25fbe4c4ab0920645b09cd64b962310d, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 53b31c857ea40c244bcf9a4303a408b7, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: c5c7ff671392fd14bb2841b47e27d42b, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 7d295c1026e85334cb3844c34801d541, type: 3}
+    m_itemName: Business
+    m_itemPrice: 0
+    m_itemAdAmount: 1
+    m_wingAvailable: 0
+    m_mesh: {fileID: 2452196792791321135, guid: 1a21b65a707531847b42464cb75bf011, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 7076c49ccade9dd4cbbc61f1c9970e66, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 525295b7b5a22fa4cbc6259627cbfd0d, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: a909bd19f8bb7af40a226117454ffe17, type: 3}
+    m_itemName: Side eye
+    m_itemPrice: 0
+    m_itemAdAmount: 3
+    m_wingAvailable: 0
+    m_mesh: {fileID: 7181318556962511903, guid: f2cbb50fb9082ab4b9444e9ddd106a1b, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 30fb238ba08b84b46b468315e1e37342, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 9dfb96468dbd2944ab7ebbe35c5bdb26, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 4db94ecb40421314a9233405dfb5fc52, type: 3}
+    m_itemName: Bored
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: 8031843379910042357, guid: 628caaefe86cb174cba409a8b1faee21, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 8572c17f22936574283d23e23a55e1ac, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: b9e51cafcfccd90428b1f052f5b69bc9, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: c5bba8fb1b758f542b260eb22ffa5e94, type: 3}
+    m_itemName: Smug
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: -1428007276637760399, guid: f6441de42cf9a8a41a8ba1c59b3f7638, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 94c8eac4f75e22f4097392a772b457ff, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 73f163f3636188142b63b032732d6b03, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 0ae75192d465e4b42b2cd37f19f53fa6, type: 3}
+    m_itemName: Swag
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: 4328369821466027553, guid: 81d7b19b4d476d849b1df6f3ebcb37b8, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 4302dae10f5f9c94b81eaa46f82d42d7, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 4d315c02ab6612643aa61e1689315267, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 5f47b26b812881748ba2f89b23ee8ac3, type: 3}
+    m_itemName: Shammy
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: -7660102483957934556, guid: 610d54fef1853e0478852b6552907beb, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: a0ab23eab409a434f94fe3c488f315c6, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: f2feed31617b7414091f640d65023f92, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 345a5c09461e5274e8c755faa83d4754, type: 3}
+    m_itemName: Solar Juggernaut
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: 6672013706771318739, guid: 700dbc482814fa948934cfcb0c83d907, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 096dcb1099eefef4489403b83829d91c, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: be2eec01754419c45804ac8ee0412f09, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 7e6daf5e38d726d41bd00aae4c9c863b, type: 3}
+    m_itemName: Plague Tyrant
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: 4977423542980786405, guid: b215a6c698c1ac14898b32a54f0f9777, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 85bdb18f05ffc114989497bd6629d80d, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: dfdbd3e4b61209249a4ee35a00846343, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 3cc92d26fb8d08141a8e65e58281a25f, type: 3}
+    m_itemName: Stone Brute
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: -2834237169905927035, guid: 1b16d04738cd74e4fa72cccc1e7c1151, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 8c8004077a5ad684a877276cc87df17e, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 80bfba869adafbd44947c5a8b0f24e67, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: ed74684ef3f7254499c7113b38cda684, type: 3}
+    m_itemName: Abyss Stalker
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: 5878477335360587786, guid: 61329a239502a7d409ac74131d04a841, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 34a8f059a8dd25f40ba67e523f8323ee, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 27ab8afe70cce6b438cd1a5e03577ed2, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 1d4055a5bba20d947a293b3820b4546d, type: 3}
+    m_itemName: Moon Mage
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: 5472026978017590910, guid: b897e3c3c4e2f0440b9402134d33f876, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 7949d35c0864bca498a5313360294232, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 20b739165a02d124baf359271dffca4a, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 537fc99c55617364b8d63492f3400c64, type: 3}
+    m_itemName: Ivory Knight
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: -1945204581112307166, guid: 87316791333601a458baf8e80ffd6578, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 24893d9dfc2c45a4bb68cb27e5179cfa, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: ed53ccf17917f014593d47f24f582de5, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 30da40cbbe1d2c545b586af46f73b042, type: 3}
+    m_itemName: Hex Reaper
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: 5372575096851034639, guid: cbbce6115fd621045a786331c6038cb4, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: d2272cff4417ae34e9e8b1eb6a1f60b6, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 761248831e2ca584285bffb95bd72ca0, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: f4432b6ab2fa15940b959faa8a1420b9, type: 3}
+    m_itemName: Wasteland Ranger
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: 3831348350787864764, guid: 148beb428e9171249a89301336edb450, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: b75752b87e75a8c42ad467dcfa3d472c, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 24306603745e9fd4dbcc389648143185, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 00c81ca0b932061418236141c987dab7, type: 3}
+    m_itemName: Shadow Executor
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: 8040008197820455211, guid: 1b0ad1b202560b74cabfaefc53c2e8ea, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 4c0cc016f146ca241bbfb1090f292990, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: d7483a841d5e31e439bacae018e49ee9, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 0fb18539438aec042a35e49843916af4, type: 3}
+    m_itemName: Sky Striker
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: -304438006621050802, guid: c8b0ff8dcb446f340aa1303f44f9b190, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 847979c298adb4c48b734cad5994bc39, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: e0c12ddb884a2b048afbce6f1cb2491e, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 88a7d9c78f4711d469c770558453402f, type: 3}
+    m_itemName: Poisonous Crocodiles
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: -6031176751517849309, guid: 7687d497d8755064d8c803c10722ba60, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 875c8f95014c3ad4f8fb1d825f20031a, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 876baa1713f168c42b541dddc61e05a5, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: f87fa2a407e024948a78813374c218b5, type: 3}
+    m_itemName: Night Drifter
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: 4086869974025004329, guid: d49468e5fdaaf0c4a91dc76bd0c3a19a, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: ae04abd6bbde1e04aa29a58be9e46fd9, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 8241f5d08233fdc43b60a137739c76dd, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 115921f905b4f9743af786bce47959ff, type: 3}
+    m_itemName: Crimson Ronin
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: -6434823273828424023, guid: 677f3e5630975ee4ba3a1f0cc244444a, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: ef3a69e3c1a137d4d9d87999ad1eccfa, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: fcc70323c97dd014d800db1f1cfda657, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 12f24369cee975b43bfd2873efae5589, type: 3}
+    m_itemName: Frost Juggernaut
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: 3536874186670300810, guid: 7d2122e755c593b44b62240fe4ad1f6b, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 9a96afb457664a040b00aa58fbd2b80e, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 6a067c419d8106c498774d653130ba62, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 561dd92c69323e14f97d018f3e97614e, type: 3}
+    m_itemName: Azure Voyager
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: -4389794645669726721, guid: 7dda0eb3fbda8294ebb1a136c8365eb3, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 3e2112e8ce4c071428989d81138a4fb2, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 3a0f48c792b18f3418f8b634fadc7fac, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 1aee1bf66bae2cf42ac42796e5c537f2, type: 3}
+    m_itemName: Ember Husk
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: 1536323291554237065, guid: c03f253fb3c58e2448686dc8a897fbbd, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: b9baba19b80017947827dd310895497d, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 5b4ae6417972d48458e889c6debb286a, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: cc834897f1c8b4a42b917fb554465c60, type: 3}
+    m_itemName: Dark Noble
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: -5814517688748843773, guid: 693252b60cb8be94089e438649cc12fd, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: e51b42e305bba174ebee6c6fde2daf02, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 03fb1e2b157846e4ca9e0a8ebdf1681d, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: ba4d0247924e6744f964a1fc7d29f34f, type: 3}
+    m_itemName: Porcelain Doll
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: -2860768248621748011, guid: ebcbc30c17a322a47b4274d461c00690, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: e8c55082430e33843864b7e019660794, type: 2}
+    - {fileID: 2100000, guid: 12ef989c0bd6fe247b20fe20944ec338, type: 2}
+    - {fileID: 2100000, guid: e6f1fed029fefd34b9af80fd1f6c19bc, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 73c5f2c858e84c147b7b44c492ef5c24, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 6a92d4c45fe6862499416b1ab6f7db27, type: 3}
+    m_itemName: Celestial Bloom
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 1
+    m_mesh: {fileID: -1501440975443353871, guid: 913a0525f89e6a14a9eda2bbc700cc94, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: afcdf12a58dc5244b889d5cf7f45a31b, type: 2}
+    - {fileID: 2100000, guid: e35dbd9e59f3127449b900b3a0155f4e, type: 2}
+    - {fileID: 2100000, guid: 968ff39308375ad4e8bc031925218f34, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: c861a9eb720e1314fac1119a9ac92553, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 83b168d20608b614f849e5ffd1bbb5b1, type: 3}
+    m_itemName: Aqua Runner
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: 5758896909487885986, guid: 13c2e74f626be7e42b308e5970fbb246, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 5c25fe9ff0bf266498c2c2331a08ad09, type: 2}
+    - {fileID: 2100000, guid: b48b342eab009ee478dfe3dc5b4ade31, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 08aea99e5b910ef49b1036b532e35a59, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: e81c0223b53c6f5449be0f622f952073, type: 3}
+    m_itemName: Star Idol
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: 8541606857299186505, guid: a4b7f1d492084654faeabbc703673df8, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 4edb4da7ee9aea8489707846f5a687f6, type: 2}
+    - {fileID: 2100000, guid: 9210abc32c9148d4caea465c66b50251, type: 2}
+    - {fileID: 2100000, guid: e35dbd9e59f3127449b900b3a0155f4e, type: 2}
+    - {fileID: 2100000, guid: b48b342eab009ee478dfe3dc5b4ade31, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: d3190c2b04507804bae81edd1e49fed4, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: e02b24967d6665a4297857ad45b9d8c4, type: 3}
+    m_itemName: Soft Wanderer
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: 9178033877827730796, guid: 7f710f585c417ec458c5dd584c01591b, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: 3c52055b68f79e74f8badb767dca1848, type: 2}
+    - {fileID: 2100000, guid: f2a6bf8640f588f4f8c59cebfe46666d, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 3f45c9cef419440408cbf8ddcdb7fc94, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 6f6508217723bea4c958fa40e6ff9672, type: 3}
+    m_itemName: Prism Fairy
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: 5864201502899803696, guid: e939f7e78ad12064cb9c07edf1e30f6a, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: e7e1a91fc947e994aa8d2a5f27f28f29, type: 2}
+    - {fileID: 2100000, guid: afcdf12a58dc5244b889d5cf7f45a31b, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: bc0f5091d75deeb44a8e9662418f12b0, type: 3}
+  - m_displayIcon: {fileID: 21300000, guid: 23cfd31e553df144ea58926d3fd8d345, type: 3}
+    m_itemName: Frozen Idol
+    m_itemPrice: 0
+    m_itemAdAmount: 4
+    m_wingAvailable: 0
+    m_mesh: {fileID: -4479377279662287551, guid: 6646bafdadfe76c4f86c7709fd4e4201, type: 3}
+    m_materials:
+    - {fileID: 2100000, guid: c707c2fd405322d4390389ba90bf5a06, type: 2}
+    - {fileID: 2100000, guid: afcdf12a58dc5244b889d5cf7f45a31b, type: 2}
+    - {fileID: 2100000, guid: dd8aefacb7c68064996a4ec6b6ce906a, type: 2}
+    m_raceIcon: {fileID: 21300000, guid: 0577866fce50c0a41aacd7f2988691a9, type: 3}
+  m_initData:
+  - {fileID: 919132149155446097, guid: 918d0e0f2c626284a92a03a54b9af950, type: 3}
+  - {fileID: 919132149155446097, guid: ebcbc30c17a322a47b4274d461c00690, type: 3}
+  - {fileID: 919132149155446097, guid: 913a0525f89e6a14a9eda2bbc700cc94, type: 3}
+  - {fileID: 919132149155446097, guid: 13c2e74f626be7e42b308e5970fbb246, type: 3}
+  - {fileID: 919132149155446097, guid: a4b7f1d492084654faeabbc703673df8, type: 3}
+  - {fileID: 919132149155446097, guid: 7f710f585c417ec458c5dd584c01591b, type: 3}
+  - {fileID: 919132149155446097, guid: e939f7e78ad12064cb9c07edf1e30f6a, type: 3}
+  - {fileID: 919132149155446097, guid: 6646bafdadfe76c4f86c7709fd4e4201, type: 3}
+  - {fileID: 919132149155446097, guid: 5197429d051fcd54183d2b45ecd86f90, type: 3}
+  - {fileID: 919132149155446097, guid: 390abd2117592bd4795fcf0a668b1b28, type: 3}
+  avatars:
+  - {fileID: 21300000, guid: a42b715ea4ce7874e81bb268a252f0d0, type: 3}
+  - {fileID: 21300000, guid: a8a120cab63f66249b1fb14ffe7aa460, type: 3}
+  - {fileID: 21300000, guid: 37d1d36787ac9a746b5cc39c31515aaa, type: 3}
+  - {fileID: 21300000, guid: e3916585dcb39db4d9c5ddb625239981, type: 3}
+  - {fileID: 21300000, guid: 8992b3f5984f8d640b8a7404080fd876, type: 3}
+  - {fileID: 21300000, guid: d1044af315cbc124190711286d3e6229, type: 3}
+  - {fileID: 21300000, guid: 5c676dd576b433a4298caa0b3f14a7c8, type: 3}
+  - {fileID: 21300000, guid: fb6e3a57f7fdc2e49a79f1b5f942c9ac, type: 3}
+  - {fileID: 21300000, guid: 6077fe87da713f044b131e26eb2fa32e, type: 3}
+  - {fileID: 21300000, guid: 2558a75f2a913ab41b6dcacd213c0d65, type: 3}
+  - {fileID: 21300000, guid: 173968a2cade1e7448592a4917505ba5, type: 3}
+  - {fileID: 21300000, guid: cc72e53ff4f1c4941b6e9bac5fdb2f6e, type: 3}
+  - {fileID: 21300000, guid: f9d4050dd5c18ee41a0ba6905426a1c2, type: 3}
+  - {fileID: 21300000, guid: 1d2278eaef27efd4b93f7b4225d330b5, type: 3}
+  - {fileID: 21300000, guid: 80107a303f75af447ad5a96715da7b9d, type: 3}
+  - {fileID: 21300000, guid: 7dd915b962d349048abe5c1556523d1f, type: 3}
+  - {fileID: 21300000, guid: 8b62fa6d4063e1247ba9f851e605905c, type: 3}
+  - {fileID: 21300000, guid: eb9b5ee7c4e635f4b991f0acc86db870, type: 3}
+  - {fileID: 21300000, guid: 8650653c40c8d7647896e752b8661df8, type: 3}
+  - {fileID: 21300000, guid: 0d9a75fbdda720344b44f735a75daffb, type: 3}
+  - {fileID: 21300000, guid: d0b6f831e20b25c4fb7b0aa40a8f68dc, type: 3}
+  - {fileID: 21300000, guid: 339974e60fde33f4cb145df6804a2f3f, type: 3}
+  - {fileID: 21300000, guid: 8c865cce216a503438c84d2a64e7917f, type: 3}
+  - {fileID: 21300000, guid: e369d2b37b17a6a45ad8f1623fed6239, type: 3}
+  - {fileID: 21300000, guid: eb816ce54da8e12439c2de36048e91ec, type: 3}
+  - {fileID: 21300000, guid: df5be02e03d2f464690023a66a8a7483, type: 3}
+  - {fileID: 21300000, guid: 7d295c1026e85334cb3844c34801d541, type: 3}
+  - {fileID: 21300000, guid: a909bd19f8bb7af40a226117454ffe17, type: 3}
+  - {fileID: 21300000, guid: 4db94ecb40421314a9233405dfb5fc52, type: 3}
+  - {fileID: 21300000, guid: c5bba8fb1b758f542b260eb22ffa5e94, type: 3}
+  - {fileID: 21300000, guid: 0ae75192d465e4b42b2cd37f19f53fa6, type: 3}
+  - {fileID: 21300000, guid: 5a28d489745a5d944bb4cd4e62c1644d, type: 3}
+  - {fileID: 21300000, guid: 98736dfb7fd5d7c4ca19298ae6eebf8b, type: 3}
+  - {fileID: 21300000, guid: e765da5c8df342e4fad6036fbf02ccb7, type: 3}
+  - {fileID: 21300000, guid: 856add76dc908df45a95a14a67e3baac, type: 3}
+  - {fileID: 21300000, guid: 9075fbdb105254546bf2f0543e39f1c0, type: 3}
+  - {fileID: 21300000, guid: 5f47b26b812881748ba2f89b23ee8ac3, type: 3}
+  - {fileID: 21300000, guid: 345a5c09461e5274e8c755faa83d4754, type: 3}
+  - {fileID: 21300000, guid: 7e6daf5e38d726d41bd00aae4c9c863b, type: 3}
+  - {fileID: 21300000, guid: 3cc92d26fb8d08141a8e65e58281a25f, type: 3}
+  - {fileID: 21300000, guid: ed74684ef3f7254499c7113b38cda684, type: 3}
+  - {fileID: 21300000, guid: 1d4055a5bba20d947a293b3820b4546d, type: 3}
+  - {fileID: 21300000, guid: 537fc99c55617364b8d63492f3400c64, type: 3}
+  - {fileID: 21300000, guid: 30da40cbbe1d2c545b586af46f73b042, type: 3}
+  - {fileID: 21300000, guid: f4432b6ab2fa15940b959faa8a1420b9, type: 3}
+  - {fileID: 21300000, guid: 00c81ca0b932061418236141c987dab7, type: 3}
+  - {fileID: 21300000, guid: 0fb18539438aec042a35e49843916af4, type: 3}
+  - {fileID: 21300000, guid: 88a7d9c78f4711d469c770558453402f, type: 3}
+  - {fileID: 21300000, guid: f87fa2a407e024948a78813374c218b5, type: 3}
+  - {fileID: 21300000, guid: 115921f905b4f9743af786bce47959ff, type: 3}
+  - {fileID: 21300000, guid: 12f24369cee975b43bfd2873efae5589, type: 3}
+  - {fileID: 21300000, guid: 561dd92c69323e14f97d018f3e97614e, type: 3}
+  - {fileID: 21300000, guid: 1aee1bf66bae2cf42ac42796e5c537f2, type: 3}
+  - {fileID: 21300000, guid: cc834897f1c8b4a42b917fb554465c60, type: 3}
+  - {fileID: 21300000, guid: ba4d0247924e6744f964a1fc7d29f34f, type: 3}
+  - {fileID: 21300000, guid: 6a92d4c45fe6862499416b1ab6f7db27, type: 3}
+  - {fileID: 21300000, guid: 83b168d20608b614f849e5ffd1bbb5b1, type: 3}
+  - {fileID: 21300000, guid: e81c0223b53c6f5449be0f622f952073, type: 3}
+  - {fileID: 21300000, guid: e02b24967d6665a4297857ad45b9d8c4, type: 3}
+  - {fileID: 21300000, guid: 6f6508217723bea4c958fa40e6ff9672, type: 3}
+  - {fileID: 21300000, guid: 23cfd31e553df144ea58926d3fd8d345, type: 3}
