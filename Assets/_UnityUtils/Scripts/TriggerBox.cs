@@ -10,7 +10,6 @@ public class TriggerBox : MonoBehaviour
 {
 	public UnityAction<Collider> onTriggerEnter;
 	public UnityAction<Collider> onTriggerExit;
-    public UnityAction<Collider> onTriggerStay;
     protected virtual void Awake()
 	{
 		#if UNITY_EDITOR
@@ -41,10 +40,6 @@ public class TriggerBox : MonoBehaviour
 	{
 		onTriggerExit?.Invoke(other);
 	}
-    private void OnTriggerStay(Collider other)
-    {
-        onTriggerStay?.Invoke(other);
-    }
 
 
 #if UNITY_EDITOR

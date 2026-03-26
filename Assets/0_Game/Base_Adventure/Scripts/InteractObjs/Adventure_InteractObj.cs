@@ -14,7 +14,6 @@ public abstract class Adventure_InteractObj : MonoBehaviour
     {
         _triggerBox.onTriggerEnter += OnTriggerEnter_Custom;
         _triggerBox.onTriggerExit += OnTriggerExit_Custom;
-        _triggerBox.onTriggerStay += OnTriggerStay_Custom;
         G4InteractAction = Interact;
     }
     protected virtual void Start()
@@ -42,10 +41,6 @@ public abstract class Adventure_InteractObj : MonoBehaviour
             ToggleOutline(false);
             IndicatorController.Instance.HideClickBtn(true);
         }
-    }
-    protected virtual void OnTriggerStay_Custom(Collider other)
-    {
-
     }
     protected void ToggleOutline(bool enable)
     {

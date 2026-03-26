@@ -10,6 +10,7 @@ TagManager:
   - Checkpoint
   - G3_IgnoreCamCollider
   - KillNoShield
+  - Door
   layers:
   - Default
   - TransparentFX
@@ -20,8 +21,8 @@ TagManager:
   - 
   - Player
   - Climb
-  - 
-  - 
+  - Obstacle
+  - Interactable
   - 
   - 
   - 
