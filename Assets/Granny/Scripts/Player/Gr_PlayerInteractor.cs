@@ -3,15 +3,18 @@ using UnityEngine;
 
 public class Gr_PlayerInteractor : MonoBehaviour
 {
-    [SerializeField] private LayerMask interacLayer;
     [SerializeField] private float maxdistance = 6f;
 
     private Camera mainCam;
     private Gr_IInteractable current;
     private Collider lastHitCollider;
+    private int interactableLayerIndex;
 
-    public Action<Gr_IInteractable> OnObjectInteractChanged;
-
+    public event Action<Gr_IInteractable> OnObjectInteractChanged;
+    private void Awake()
+    {
+        interactableLayerIndex = LayerMask.NameToLayer("Interactable");
+    }
     private void Start()
     {
         mainCam = Camera.main;
@@ -26,16 +29,27 @@ public class Gr_PlayerInteractor : MonoBehaviour
     {
         Ray ray = mainCam.ViewportPointToRay(new Vector3(.5f, .5f, 0f));
 
-        if (Physics.Raycast(ray, out RaycastHit hit, maxdistance, interacLayer))
+        if (Physics.Raycast(ray, out RaycastHit hit, maxdistance))
         {
-            if (hit.collider != lastHitCollider)
+            if (hit.collider.gameObject.layer == interactableLayerIndex)
             {
-                lastHitCollider = hit.collider;
-                Gr_IInteractable newInteractable = hit.collider.GetComponentInParent<Gr_IInteractable>();
-
-                if (newInteractable != current)
+                if (hit.collider != lastHitCollider)
                 {
-                    ChangeInteractable(newInteractable);
+                    lastHitCollider = hit.collider;
+                    Gr_IInteractable newInteractable = hit.collider.GetComponentInParent<Gr_IInteractable>();
+
+                    if (newInteractable != current)
+                    {
+                        ChangeInteractable(newInteractable);
+                    }
+                }
+            }
+            else
+            {
+                if (current != null)
+                {
+                    lastHitCollider = null;
+                    ChangeInteractable(null);
                 }
             }
         }
@@ -55,7 +69,7 @@ public class Gr_PlayerInteractor : MonoBehaviour
         current = newInteractable;
         current?.OnFocusEnter();
 
-        OnObjectInteractChanged?.Invoke(current);
+        Gr_EventManager.Notify(new ObjectInteractableChangedEvent(current));
     }
 
     public void Interact()

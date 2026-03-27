@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
 	
 	public List<int> gamePlayed = new List<int>();
 	
+
     private void Awake()
 	{
 		Instance = this;

@@ -4,29 +4,32 @@ using UnityEngine.UI;
 public class UIGamePlay : MonoBehaviour
 {
     [SerializeField] private Button handButton;
+    private Gr_IInteractable objInteractable;
 
-    private Gr_PlayerInteractor playerInteractor;
+    private void OnEnable()
+    {
+        Gr_EventManager.AddListener<ObjectInteractableChangedEvent>(UpdateUIHandButton);
+        handButton.onClick.AddListener(OnInteract);
+    }
+    private void OnDisable()
+    {
+        Gr_EventManager.RemoveListener<ObjectInteractableChangedEvent>(UpdateUIHandButton);
+        handButton.onClick.RemoveListener(OnInteract);
+    }
     private void Start()
     {
-        handButton.onClick.AddListener(OnInteract);
         handButton.gameObject.SetActive(false);
-
-        playerInteractor = TransformAnchorManager.Instance.GetTransformPlayer().GetComponentInChildren<Gr_PlayerInteractor>();
-        playerInteractor.OnObjectInteractChanged += UpdateUIHandButton;
     }
     private void Update()
     {
     }
-    private void UpdateUIHandButton(Gr_IInteractable obj)
+    private void UpdateUIHandButton(ObjectInteractableChangedEvent e)
     {
-        handButton.gameObject.SetActive(obj != null);
+        objInteractable = e.obj;
+        handButton.gameObject.SetActive(objInteractable != null);
     }
     public void OnInteract()
     {
-        playerInteractor.Interact();
-    }
-    private void OnDisable()
-    {
-        playerInteractor.OnObjectInteractChanged -= UpdateUIHandButton;
+        objInteractable.Interact();
     }
 }
