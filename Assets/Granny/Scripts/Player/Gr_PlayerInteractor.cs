@@ -4,13 +4,13 @@ using UnityEngine;
 public class Gr_PlayerInteractor : MonoBehaviour
 {
     [SerializeField] private float maxdistance = 6f;
+    [SerializeField] private LayerMask mask;
 
     private Camera mainCam;
     private Gr_IInteractable current;
     private Collider lastHitCollider;
     private int interactableLayerIndex;
 
-    public event Action<Gr_IInteractable> OnObjectInteractChanged;
     private void Awake()
     {
         interactableLayerIndex = LayerMask.NameToLayer("Interactable");
@@ -27,42 +27,38 @@ public class Gr_PlayerInteractor : MonoBehaviour
 
     private void FindObjectCanInteract()
     {
-        Ray ray = mainCam.ViewportPointToRay(new Vector3(.5f, .5f, 0f));
+        var ray = mainCam.ViewportPointToRay(new Vector3(.5f, .5f, 0f));
 
-        if (Physics.Raycast(ray, out RaycastHit hit, maxdistance))
+        if (Physics.Raycast(ray, out var hit, maxdistance, mask))
         {
             if (hit.collider.gameObject.layer == interactableLayerIndex)
             {
-                if (hit.collider != lastHitCollider)
-                {
-                    lastHitCollider = hit.collider;
-                    Gr_IInteractable newInteractable = hit.collider.GetComponentInParent<Gr_IInteractable>();
+                if (hit.collider == lastHitCollider) return;
+                lastHitCollider = hit.collider;
+                var newInteractable = hit.collider.GetComponentInParent<Gr_IInteractable>();
 
-                    if (newInteractable != current)
-                    {
-                        ChangeInteractable(newInteractable);
-                    }
+                if (newInteractable != current)
+                {
+                    ChangeInteractable(newInteractable);
                 }
             }
             else
             {
-                if (current != null)
-                {
-                    lastHitCollider = null;
-                    ChangeInteractable(null);
-                }
+                ClearInteractable();
             }
         }
         else
         {
-            if (current != null)
-            {
-                lastHitCollider = null;
-                ChangeInteractable(null);
-            }
+            ClearInteractable();
         }
     }
+    private void ClearInteractable()
+    {
+        if (current == null) return;
 
+        lastHitCollider = null;
+        ChangeInteractable(null);
+    }
     private void ChangeInteractable(Gr_IInteractable newInteractable)
     {
         current?.OnFocusExit();
@@ -70,10 +66,5 @@ public class Gr_PlayerInteractor : MonoBehaviour
         current?.OnFocusEnter();
 
         Gr_EventManager.Notify(new ObjectInteractableChangedEvent(current));
-    }
-
-    public void Interact()
-    {
-        current?.Interact();
     }
 }

@@ -3,15 +3,18 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public abstract class Gr_BaseItemInteractable : Gr_InteractableBase
 {
+    public SOItemData ItemData;
     [SerializeField] private Collider col;
     protected Rigidbody rb;
+    protected Vector3 rootScale;
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        rootScale = transform.localScale;
     }
     public override void OnFocusEnter()
     {
-        
+        Gr_EventManager.Notify(new FocusItemEvent(ItemData.Description));
     }
     public override void Interact()
     {
@@ -19,7 +22,7 @@ public abstract class Gr_BaseItemInteractable : Gr_InteractableBase
     }
     public override void OnFocusExit()
     {
-
+        Gr_EventManager.Notify(new FocusItemEvent(""));
     }
     public virtual void SetupForHold(Transform handPoint)
     {
@@ -33,7 +36,7 @@ public abstract class Gr_BaseItemInteractable : Gr_InteractableBase
     }
     public virtual void SetupForDrop()
     {
-        transform.localScale /= 2;
+        transform.localScale = rootScale;
         transform.SetParent(null);
         rb.isKinematic = false; 
         col.enabled = true;

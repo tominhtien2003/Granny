@@ -29,20 +29,24 @@ public class Gr_PlayerHolder : MonoBehaviour
         }
         currentItem = newItem;
         currentItem.SetupForHold(hand);
+        Gr_EventManager.Notify(new SelectedItemEvent(currentItem));
     }
     public void Drop()
     {
-        if (currentItem != null)
+        if (currentItem == null) return;
+        currentItem.SetupForDrop();
+
+        var rb = currentItem.GetRigidbody();
+        if (rb != null)
         {
-            currentItem.SetupForDrop();
-
-            Rigidbody rb = currentItem.GetRigidbody();
-            if (rb != null)
-            {
-                rb.AddForce(mainCam.transform.forward * dropForce + Vector3.up * dropUpwardForce, ForceMode.Impulse);
-            }
-
-            currentItem = null;
+            rb.AddForce(mainCam.transform.forward * dropForce + Vector3.up * dropUpwardForce, ForceMode.Impulse);
         }
+
+        currentItem = null;
+    }
+
+    public Gr_BaseItemInteractable GetCurrentItem()
+    {
+        return currentItem;
     }
 }
