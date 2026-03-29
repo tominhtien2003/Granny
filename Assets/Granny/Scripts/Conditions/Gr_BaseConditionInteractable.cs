@@ -1,9 +1,12 @@
+using System;
 using UnityEngine;
 
 public abstract class Gr_BaseConditionInteractable : Gr_InteractableBase
 {
     public bool IsSatisfied { get; protected set; }
     public SOItemData RequiredItem;
+    
+
     public override void Interact()
     {
         var holdItem = Gr_PlayerHolder.Instance.GetCurrentItem();
@@ -16,6 +19,7 @@ public abstract class Gr_BaseConditionInteractable : Gr_InteractableBase
             if (holdItem.ItemData.Type == RequiredItem.Type)
             {
                 IsSatisfied = true;
+                Gr_EventManager.Notify(new ConditionSatisfiedEvent());
                 ResolveConditions();
             }
             else

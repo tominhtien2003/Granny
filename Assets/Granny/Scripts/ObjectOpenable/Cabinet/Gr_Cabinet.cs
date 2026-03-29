@@ -1,8 +1,9 @@
 using PrimeTween;
 public class Gr_Cabinet : Gr_BaseOpenableObject
 {
-    private void Start()
+    protected override void Start()
     {
+        base.Start();
         start = transform.localEulerAngles;
         end = start + direct * 90;
     }

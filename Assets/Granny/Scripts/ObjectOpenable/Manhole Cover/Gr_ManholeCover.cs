@@ -4,8 +4,9 @@ using UnityEngine;
 public class Gr_ManholeCover : Gr_BaseOpenableObject
 {
     [SerializeField] private float offset = 1f;
-    private void Start()
+    protected override void Start()
     {
+        base.Start();
         start = transform.localPosition;
         end = start + direct * offset;
     }

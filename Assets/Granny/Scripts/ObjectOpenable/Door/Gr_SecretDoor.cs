@@ -10,8 +10,9 @@ public class Gr_SecretDoor : Gr_BaseOpenableObject
     {
         navMeshObstacle = GetComponent<NavMeshObstacle>();
     }
-    private void Start()
+    protected override void Start()
     {
+        base.Start();
         start = transform.localPosition;
         end = start + direct * offset;
     }

@@ -4,8 +4,9 @@ using UnityEngine;
 public class Gr_Drawer : Gr_BaseOpenableObject
 {
     [SerializeField] private float offset = 2f;
-    private void Start()
+    protected override void Start()
     {
+        base.Start();
         start = transform.localPosition;
         end = start + offset * direct;
     }
