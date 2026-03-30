@@ -41,7 +41,6 @@ public class Gr_PlayerHolder : MonoBehaviour
         {
             rb.AddForce(mainCam.transform.forward * dropForce + Vector3.up * dropUpwardForce, ForceMode.Impulse);
         }
-
         currentItem = null;
     }
 

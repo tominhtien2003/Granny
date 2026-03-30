@@ -9,5 +9,7 @@ public enum ItemType
     MasterKey,
     Book,
     RemoteControl,
-    Plank
+    Plank,
+    Cylinder,
+    Crossbow
 }

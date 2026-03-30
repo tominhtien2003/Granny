@@ -19,10 +19,12 @@ public abstract class Gr_BaseOpenableObject : Gr_InteractableBase
     protected virtual void OnEnable()
     {
         Gr_EventManager.AddListener<ConditionSatisfiedEvent>(HandleConditionSatisfied);
+        //Gr_EventManager.AddListener<ConditionActiveByPlayerEvent>(HandleConditionActiveByPlayer);
     }
     protected virtual void OnDisable()
     {
         Gr_EventManager.RemoveListener<ConditionSatisfiedEvent>(HandleConditionSatisfied);
+        //Gr_EventManager.RemoveListener<ConditionActiveByPlayerEvent>(HandleConditionActiveByPlayer);
     }
     protected virtual void Start()
     {
@@ -37,10 +39,23 @@ public abstract class Gr_BaseOpenableObject : Gr_InteractableBase
             SetInteractableState(defaultLayer);
         }
     }
-    private void SetInteractableState(string nameLayer)
+    public void SetInteractableState(string nameLayer)
     {
         gameObject.layer = LayerMask.NameToLayer(nameLayer);
     }
+    //private void HandleConditionActiveByPlayer(ConditionActiveByPlayerEvent e)
+    //{
+    //    if (e.isOpened)
+    //    {
+    //        isSatisfiedAllCondition = true;
+    //        SetInteractableState(interactableLayer);
+    //    }
+    //    else
+    //    {
+    //        isSatisfiedAllCondition = false;
+    //        SetInteractableState(defaultLayer);
+    //    }
+    //}
     private void HandleConditionSatisfied(ConditionSatisfiedEvent e)
     {
         if (conditions == null || conditions.Count == 0) return;

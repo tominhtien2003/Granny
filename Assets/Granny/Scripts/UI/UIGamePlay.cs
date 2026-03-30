@@ -7,6 +7,7 @@ public class UIGamePlay : MonoBehaviour
 {
     [SerializeField] private Button handButton;
     [SerializeField] private Button dropButton;
+    [SerializeField] private Button shootButton;
     [SerializeField] private TextMeshProUGUI txtDescription;
     [SerializeField] private TextMeshProUGUI txtRequiredItem;
     private Gr_IInteractable objInteractable;
@@ -17,8 +18,11 @@ public class UIGamePlay : MonoBehaviour
         Gr_EventManager.AddListener<SelectedItemEvent>(UpdateUISelectedItem);
         Gr_EventManager.AddListener<FocusItemEvent>(UpdateUIWhenFocusItem);
         Gr_EventManager.AddListener<MissingRequiredItemEvent>(UpdateUIRequiredItem);
+        Gr_EventManager.AddListener<CylinderInteractWithCrossbowEvent>(UpdateUIWhenCombineCylinderWithCrossbow);
+        Gr_EventManager.AddListener<DropCrossbowEvent>(UpdateUIDropCrossbow);
         handButton.onClick.AddListener(OnInteractHandButton);
         dropButton.onClick.AddListener(OnInteractDropButton);
+        shootButton.onClick.AddListener(OnShootButton);
     }
     private void OnDisable()
     {
@@ -26,10 +30,21 @@ public class UIGamePlay : MonoBehaviour
         Gr_EventManager.RemoveListener<SelectedItemEvent>(UpdateUISelectedItem);
         Gr_EventManager.RemoveListener<FocusItemEvent>(UpdateUIWhenFocusItem);
         Gr_EventManager.RemoveListener<MissingRequiredItemEvent>(UpdateUIRequiredItem);
+        Gr_EventManager.RemoveListener<CylinderInteractWithCrossbowEvent>(UpdateUIWhenCombineCylinderWithCrossbow);
+        Gr_EventManager.RemoveListener<DropCrossbowEvent>(UpdateUIDropCrossbow);
         handButton.onClick.RemoveListener(OnInteractHandButton);
         dropButton.onClick.RemoveListener(OnInteractDropButton);
+        shootButton.onClick.RemoveListener(OnShootButton);
     }
 
+    private void UpdateUIDropCrossbow(DropCrossbowEvent e)
+    {
+        shootButton.gameObject.SetActive(e.obj != null);
+    }
+    private void UpdateUIWhenCombineCylinderWithCrossbow(CylinderInteractWithCrossbowEvent e)
+    {
+        shootButton.gameObject.SetActive(e.obj != null);
+    }
     private void UpdateUIRequiredItem(MissingRequiredItemEvent e)
     {
         Tween.StopAll(txtRequiredItem);
@@ -58,6 +73,10 @@ public class UIGamePlay : MonoBehaviour
         handButton.gameObject.SetActive(objInteractable != null);
     }
 
+    private void OnShootButton()
+    {
+        Gr_EventManager.Notify(new CylinderInteractWithCrossbowEvent(null));
+    }
     private void OnInteractDropButton()
     {
         Gr_PlayerHolder.Instance.Drop();

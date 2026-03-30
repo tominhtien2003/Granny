@@ -33,6 +33,7 @@ public class Gr_Lever : Gr_BaseOpenableObject
     }
     private void InteractSecretObj()
     {
+        if (secretObj == null) return;
         if (isOpened)
         {
             secretObj.OpenObj();
