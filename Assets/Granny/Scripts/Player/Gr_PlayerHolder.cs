@@ -48,4 +48,14 @@ public class Gr_PlayerHolder : MonoBehaviour
     {
         return currentItem;
     }
+    public void UseCurrentItem()
+    {
+        if (currentItem is IUsableItem usableItem)
+        {
+            if (usableItem.CanUse)
+            {
+                usableItem.Use();
+            }
+        }
+    }
 }
