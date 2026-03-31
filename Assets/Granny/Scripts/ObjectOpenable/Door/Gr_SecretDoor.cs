@@ -13,6 +13,7 @@ public class Gr_SecretDoor : Gr_BaseOpenableObject
     protected override void Start()
     {
         base.Start();
+        gameObject.layer = LayerMask.NameToLayer("Default");
         start = transform.localPosition;
         end = start + direct * offset;
     }

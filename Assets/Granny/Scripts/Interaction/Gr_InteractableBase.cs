@@ -14,7 +14,7 @@ public abstract class Gr_InteractableBase : MonoBehaviour, Gr_IInteractable
     public virtual void OnFocusExit()
     {
     }
-
+    
     public Transform GetTransform()
     {
         return transform;

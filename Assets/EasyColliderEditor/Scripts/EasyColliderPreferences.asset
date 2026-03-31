@@ -93,7 +93,7 @@ MonoBehaviour:
   VertexNormalOffsetType: 2
   VertexNormalOffset: 0
   VertexNormalInset: 0
-  VertexSnapMethod: 2
+  VertexSnapMethod: 1
   VertSelectKeyCode: 118
   VHACDPreview: 1
   CurrentWindowTab: 0
