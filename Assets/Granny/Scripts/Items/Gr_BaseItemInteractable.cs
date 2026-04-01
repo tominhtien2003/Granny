@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -14,6 +15,20 @@ public abstract class Gr_BaseItemInteractable : Gr_InteractableBase
         rootScale = transform.localScale;
         if (glow != null) glow.SetActive(true);
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.GetContact(0).thisCollider == col)
+        {
+            if (rb.isKinematic) return;
+            if (collision.relativeVelocity.magnitude > 1f)
+            {
+                //Debug.Log("aa");
+                Gr_EventManager.Notify(new NoiseEvent(transform.position));
+            }
+        }
+    }
+    
     public override void OnFocusEnter()
     {
         Gr_EventManager.Notify(new FocusItemEvent(ItemData.Description));

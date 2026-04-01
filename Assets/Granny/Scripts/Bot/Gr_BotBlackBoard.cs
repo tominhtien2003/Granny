@@ -8,6 +8,9 @@ public class Gr_BotBlackBoard
     public bool CanSeePlayer;
 
     public bool CanAttack;
+
+    public bool HasLastKnownPlayerPosition;  
+    public Vector3 LastKnownPlayerPosition; 
     
     public bool HasHeardSound;
     public Vector3 HeardPosition;
@@ -19,5 +22,10 @@ public class Gr_BotBlackBoard
     {
         HasHeardSound = false;
         HeardPosition = Vector3.zero;
+    }
+    public void ClearLastKnownPosition()
+    {
+        HasLastKnownPlayerPosition = false;
+        LastKnownPlayerPosition = Vector3.zero;
     }
 }

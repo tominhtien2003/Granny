@@ -10,6 +10,7 @@ public class Gr_BotVision : MonoBehaviour
     [Header("References")]
     [SerializeField] Transform eyeTransform; 
     [SerializeField] LayerMask obstacleMask;
+    [SerializeField] private Vector3 playerOffset = new Vector3(0, 1.5f, 0);
 
     [SerializeField] private float attackDistance = 2f;
 
@@ -39,27 +40,49 @@ public class Gr_BotVision : MonoBehaviour
 
         bool isSeeing = false;
         
-        float distance = Vector3.Distance(eyeTransform.position, playerTransform.position);
+        Vector3 targetPosition = playerTransform.position + playerOffset;
+        
+        float distance = Vector3.Distance(eyeTransform.position, targetPosition);
+        //if (distance <= attackDistance)
+        //{
+            //Debug.DrawLine(eyeTransform.position, targetPosition, Color.red);
+        //}
         if (distance <= viewDistance)
         {
-            //Debug.DrawLine(eyeTransform.position, playerTransform.position, Color.red);
-            Vector3 directionToPlayer = (playerTransform.position - eyeTransform.position).normalized;
+            //Debug.Log("Oke");
+            //Debug.DrawLine(eyeTransform.position, targetPosition, Color.red);
+            Vector3 directionToPlayer = (targetPosition - eyeTransform.position).normalized;
             
             float dotProduct = Vector3.Dot(eyeTransform.forward, directionToPlayer);
 
             if (dotProduct >= viewThreshold)
             {
                 //Debug.Log("Oke");
-                if (!Physics.Raycast(eyeTransform.position, directionToPlayer, out RaycastHit hit, distance,obstacleMask))
+                //Debug.DrawLine(eyeTransform.position, playerTransform.position + playerOffset, Color.red);
+                if (!Physics.Raycast(eyeTransform.position, directionToPlayer, out var hit, distance,obstacleMask, QueryTriggerInteraction.Ignore))
                 {
+                    //Debug.Log("Oke");
+                    //Debug.DrawLine(eyeTransform.position, playerTransform.position, Color.red);
                     isSeeing = true;
+                }
+                else
+                {
+                    //Debug.Log(hit.collider.gameObject.name);
                 }
             }
         }
         
         bot.BlackBoard.CanSeePlayer = isSeeing;
 
-        bot.BlackBoard.CanAttack = isSeeing && distance <= attackDistance;
+        bot.BlackBoard.CanAttack = isSeeing && (distance <= attackDistance);
+        
+        if (isSeeing)
+        {
+            bot.BlackBoard.HasLastKnownPlayerPosition = true;
+            
+            bot.BlackBoard.LastKnownPlayerPosition = playerTransform.position; 
+        }
+        //Debug.Log(bot.BlackBoard.CanAttack + " " + isSeeing);
         //Debug.Log(isSeeing);
     }
 }

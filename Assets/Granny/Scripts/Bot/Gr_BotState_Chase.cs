@@ -11,7 +11,8 @@ public class Gr_BotState_Chase : Gr_BaseBotState
 
     public override void Enter()
     {
-        bot.Animator.Play("Move");
+        //Debug.Log("Entering Chase State");
+        bot.Animator.Play("Run");
     }
 
     public override void Execute()
@@ -27,6 +28,7 @@ public class Gr_BotState_Chase : Gr_BaseBotState
             return;
         }
         bot.Movement.MoveTo(bot.BlackBoard.PlayerTransform.position, chaseSpeed);
+        bot.Movement.FacePlayer(bot.BlackBoard.PlayerTransform.position);
     }
 
     public override void Exit()

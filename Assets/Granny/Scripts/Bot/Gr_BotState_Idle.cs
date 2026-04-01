@@ -10,6 +10,7 @@ public class Gr_BotState_Idle : Gr_BaseBotState
 
     public override void Enter()
     {
+        //Debug.Log("Entering Idle State");
         bot.Animator.Play("Idle");
         bot.Movement.StopMoving();
         idleTimer = 0;

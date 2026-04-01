@@ -1,4 +1,5 @@
 using System;
+using Cinemachine;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -6,6 +7,7 @@ public class Gr_BotController : MonoBehaviour
 {
     public Waypoint StartWaypoint;
     [SerializeField] Transform PlayerTransform;
+    public CinemachineVirtualCamera botAttackCam;
     public Animator Animator;
     private BotStateMachine stateMachine;
     public Gr_BotBlackBoard BlackBoard { get;private  set; }

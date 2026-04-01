@@ -32,4 +32,13 @@ public class Gr_Door : Gr_BaseOpenableObject
             col.enabled = true;
         });
     }
+
+    public void BotOpenDoor()
+    {
+        Tween.LocalEulerAngles(transform, start, end, .2f, Ease.Linear).OnComplete(() =>
+        {
+            isOpened = true;
+            isMoving = false;
+        });
+    }
 }

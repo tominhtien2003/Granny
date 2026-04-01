@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class Gr_BotState_Patrol : Gr_BaseBotState
 {
-    private float patrolSpeed = 1.5f;
+    private float patrolSpeed = 2f;
     public Gr_BotState_Patrol(Gr_BotController bot, BotStateMachine stateMachine) : base(bot, stateMachine)
     {
     }
 
     public override void Enter()
     {
-        bot.Animator.Play("Move");
+        //Debug.Log("Entering Patrol State");
+        bot.Animator.Play("Walk");
         if (bot.BlackBoard.CurrentWaypoint != null)
         {
             bot.Movement.MoveTo(bot.BlackBoard.CurrentWaypoint.transform.position, patrolSpeed);

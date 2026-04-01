@@ -22,6 +22,7 @@ public class Gr_BotMovement : MonoBehaviour
     {
         if (!agent.isOnNavMesh) return;
         agent.isStopped = true;
+        agent.velocity = Vector3.zero;
         if (agent.hasPath)
         {
             agent.ResetPath();
